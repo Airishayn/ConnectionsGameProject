@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_WorldJam1/VRC_WorldJam1_DemoScene.unity
+  isLoaded: 1
+  isActive: 1
