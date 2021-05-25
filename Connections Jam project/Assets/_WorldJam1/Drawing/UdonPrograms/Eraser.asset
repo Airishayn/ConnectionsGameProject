@@ -611,7 +611,7 @@ MonoBehaviour:
     uid: 44ecb895-be4c-4688-ad0a-172eca4195a2
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 77.918434, y: 125.43764}
-    scale: 0.65751624
+    position: {x: -1340.1857, y: -970.6248}
+    scale: 1.520875
   version: 1.0.0
   showAssembly: 0

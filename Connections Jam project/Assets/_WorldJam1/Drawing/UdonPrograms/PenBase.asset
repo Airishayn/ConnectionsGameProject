@@ -17,43 +17,47 @@ MonoBehaviour:
   udonAssembly: ".data_start\r\n\r\n    .export minMoveDistance\r\n    .export penTip\r\n
     \   .export pointsPerUpdate\r\n    .export linesContainer\r\n    .export LineStartPosition\r\n
     \   .export LineFollowPosition\r\n    .export LineEndPosition\r\n    .export isdrawing\r\n
-    \   .sync nextLineIndex, none\r\n    \r\n    instance_1: %UnityEngineLineRenderer,
-    null\r\n    type_0: %SystemType, null\r\n    Type_0: %SystemType, null\r\n    player_0:
-    %VRCSDKBaseVRCPlayerApi, null\r\n    obj_0: %UnityEngineGameObject, this\r\n    instance_3:
-    %UnityEngineGameObject, this\r\n    value_0: %SystemBoolean, null\r\n    instance_2:
-    %UnityEngineLineRenderer, null\r\n    instance_0: %UnityEngineLineRendererArray,
-    null\r\n    Int32_0: %SystemInt32, null\r\n    Boolean_0: %SystemBoolean, null\r\n
-    \   Int32_1: %SystemInt32, null\r\n    Int32_2: %SystemInt32, null\r\n    instance_4:
-    %UnityEngineLineRendererArray, null\r\n    Int32_5: %SystemInt32, null\r\n    Int32_3:
-    %SystemInt32, null\r\n    Int32_4: %SystemInt32, null\r\n    Boolean_1: %SystemBoolean,
-    null\r\n    instance_5: %UnityEngineLineRenderer, null\r\n    value_1: %SystemInt32,
-    null\r\n    instance_6: %UnityEngineTransform, this\r\n    Int32_6: %SystemInt32,
-    null\r\n    index_0: %SystemInt32, null\r\n    condition_0: %SystemBoolean, null\r\n
-    \   instance_7: %UnityEngineLineRenderer, null\r\n    index_1: %SystemInt32, null\r\n
-    \   position_0: %UnityEngineVector3, null\r\n    start_0: %SystemInt32, null\r\n
-    \   end_0: %SystemInt32, null\r\n    step_0: %SystemInt32, null\r\n    instance_8:
-    %UnityEngineTransform, this\r\n    instance_9: %UnityEngineTransform, this\r\n
-    \   value_2: %UnityEngineVector3, null\r\n    instance_A: %UnityEngineMaterial,
-    null\r\n    value_3: %UnityEngineColor, null\r\n    Boolean_2: %SystemBoolean,
-    null\r\n    instance_B: %UnityEngineTransform, this\r\n    value_4: %UnityEngineVector3,
-    null\r\n    instance_C: %UnityEngineTransform, this\r\n    instance_D: %UnityEngineMaterial,
-    null\r\n    value_5: %UnityEngineColor, null\r\n    instance_E: %VRCUdonUdonBehaviour,
-    this\r\n    eventName_0: %SystemString, null\r\n    Boolean_3: %SystemBoolean,
-    null\r\n    Boolean_4: %SystemBoolean, null\r\n    Single_0: %SystemSingle, null\r\n
-    \   Single_1: %SystemSingle, null\r\n    a_0: %UnityEngineVector3, null\r\n    b_0:
-    %UnityEngineVector3, null\r\n    instance_F: %UnityEngineTransform, this\r\n    instance_10:
-    %UnityEngineLineRenderer, null\r\n    value_6: %SystemInt32, null\r\n    Int32_7:
-    %SystemInt32, null\r\n    Int32_8: %SystemInt32, null\r\n    instance_11: %UnityEngineLineRenderer,
-    null\r\n    index_2: %SystemInt32, null\r\n    position_1: %UnityEngineVector3,
-    null\r\n    instance_12: %UnityEngineTransform, this\r\n    Boolean_5: %SystemBoolean,
-    null\r\n    Int32_B: %SystemInt32, null\r\n    Int32_C: %SystemInt32, null\r\n
-    \   Int32_D: %SystemInt32, null\r\n    Int32_E: %SystemInt32, null\r\n    Int32_9:
-    %SystemInt32, null\r\n    Int32_A: %SystemInt32, null\r\n    instance_13: %VRCUdonUdonBehaviour,
-    this\r\n    eventName_1: %SystemString, null\r\n    instance_14: %UnityEngineTransform,
-    this\r\n    value_7: %UnityEngineVector3, null\r\n    Boolean_6: %SystemBoolean,
-    null\r\n    instance_15: %UnityEngineTransform, this\r\n    type_1: %SystemType,
-    null\r\n    Type_1: %SystemType, null\r\n    instance_16: %UnityEngineMaterial,
-    null\r\n    value_8: %UnityEngineColor, null\r\n    line: %VRCUdonUdonBehaviour,
+    \   .export ClearDebug\r\n    .export LineClearPoint\r\n    .export Line1\r\n
+    \   .export PenMaterial\r\n    .export StartCube\r\n    .sync nextLineIndex, none\r\n
+    \   \r\n    instance_1: %UnityEngineLineRenderer, null\r\n    type_0: %SystemType,
+    null\r\n    Type_0: %SystemType, null\r\n    player_0: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    obj_0: %UnityEngineGameObject, this\r\n    instance_3: %UnityEngineGameObject,
+    this\r\n    value_0: %SystemBoolean, null\r\n    instance_2: %UnityEngineLineRenderer,
+    null\r\n    instance_0: %UnityEngineLineRendererArray, null\r\n    Int32_0: %SystemInt32,
+    null\r\n    Boolean_0: %SystemBoolean, null\r\n    Int32_1: %SystemInt32, null\r\n
+    \   Int32_2: %SystemInt32, null\r\n    instance_4: %UnityEngineLineRendererArray,
+    null\r\n    Int32_5: %SystemInt32, null\r\n    instance_5: %UnityEngineMaterial,
+    null\r\n    value_1: %UnityEngineColor, null\r\n    Int32_3: %SystemInt32, null\r\n
+    \   Int32_4: %SystemInt32, null\r\n    instance_6: %UnityEngineMaterial, null\r\n
+    \   value_2: %UnityEngineColor, null\r\n    Boolean_1: %SystemBoolean, null\r\n
+    \   instance_7: %UnityEngineLineRenderer, null\r\n    value_3: %SystemInt32, null\r\n
+    \   instance_8: %UnityEngineTransform, this\r\n    Int32_6: %SystemInt32, null\r\n
+    \   index_0: %SystemInt32, null\r\n    condition_0: %SystemBoolean, null\r\n    instance_9:
+    %UnityEngineLineRenderer, null\r\n    index_1: %SystemInt32, null\r\n    position_0:
+    %UnityEngineVector3, null\r\n    start_0: %SystemInt32, null\r\n    end_0: %SystemInt32,
+    null\r\n    step_0: %SystemInt32, null\r\n    instance_A: %UnityEngineTransform,
+    this\r\n    instance_B: %UnityEngineTransform, this\r\n    value_4: %UnityEngineVector3,
+    null\r\n    instance_C: %UnityEngineMaterial, null\r\n    value_5: %UnityEngineColor,
+    null\r\n    Boolean_2: %SystemBoolean, null\r\n    instance_D: %UnityEngineTransform,
+    this\r\n    value_6: %UnityEngineVector3, null\r\n    instance_E: %UnityEngineTransform,
+    this\r\n    instance_F: %UnityEngineMaterial, null\r\n    value_7: %UnityEngineColor,
+    null\r\n    instance_10: %VRCUdonUdonBehaviour, this\r\n    eventName_0: %SystemString,
+    null\r\n    Boolean_3: %SystemBoolean, null\r\n    Boolean_4: %SystemBoolean,
+    null\r\n    Single_0: %SystemSingle, null\r\n    Single_1: %SystemSingle, null\r\n
+    \   a_0: %UnityEngineVector3, null\r\n    b_0: %UnityEngineVector3, null\r\n    instance_11:
+    %UnityEngineTransform, this\r\n    instance_12: %UnityEngineLineRenderer, null\r\n
+    \   value_8: %SystemInt32, null\r\n    Int32_7: %SystemInt32, null\r\n    Int32_8:
+    %SystemInt32, null\r\n    instance_13: %UnityEngineLineRenderer, null\r\n    index_2:
+    %SystemInt32, null\r\n    position_1: %UnityEngineVector3, null\r\n    instance_14:
+    %UnityEngineTransform, this\r\n    Boolean_5: %SystemBoolean, null\r\n    Int32_B:
+    %SystemInt32, null\r\n    Int32_C: %SystemInt32, null\r\n    Int32_D: %SystemInt32,
+    null\r\n    Int32_E: %SystemInt32, null\r\n    Int32_9: %SystemInt32, null\r\n
+    \   Int32_A: %SystemInt32, null\r\n    instance_15: %VRCUdonUdonBehaviour, this\r\n
+    \   eventName_1: %SystemString, null\r\n    instance_16: %UnityEngineTransform,
+    this\r\n    value_9: %UnityEngineVector3, null\r\n    Boolean_6: %SystemBoolean,
+    null\r\n    instance_17: %UnityEngineTransform, this\r\n    type_1: %SystemType,
+    null\r\n    Type_1: %SystemType, null\r\n    instance_18: %UnityEngineMaterial,
+    null\r\n    value_A: %UnityEngineColor, null\r\n    line: %VRCUdonUdonBehaviour,
     this\r\n    isDrawing: %SystemBoolean, null\r\n    startPosition: %UnityEngineVector3,
     null\r\n    minMoveDistance: %SystemSingle, null\r\n    points: %UnityEngineVector3Array,
     null\r\n    lineRenderer: %UnityEngineLineRenderer, null\r\n    penTip: %UnityEngineTransform,
@@ -63,7 +67,13 @@ MonoBehaviour:
     null\r\n    linePool: %UnityEngineLineRendererArray, null\r\n    LineStartPosition:
     %UnityEngineTransform, this\r\n    LineFollowPosition: %UnityEngineTransform,
     this\r\n    LineEndPosition: %UnityEngineTransform, this\r\n    isdrawing: %UnityEngineMaterial,
-    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onPickupUseDown\r\n
+    null\r\n    ClearDebug: %UnityEngineMaterial, null\r\n    ClearSpot: %UnityEngineTransform,
+    this\r\n    LineClearPoint: %UnityEngineLineRenderer, null\r\n    ClearReady:
+    %SystemBoolean, null\r\n    Line1: %UnityEngineLineRenderer, null\r\n    Line2:
+    %UnityEngineLineRenderer, null\r\n    Line3: %UnityEngineLineRenderer, null\r\n
+    \   Line4: %UnityEngineLineRenderer, null\r\n    Line5: %UnityEngineLineRenderer,
+    null\r\n    PenMaterial: %UnityEngineMaterial, null\r\n    StartCube: %VRCUdonUdonBehaviour,
+    this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onPickupUseDown\r\n
     \   \r\n    _onPickupUseDown:\r\n    \r\n        PUSH, linePool\r\n        PUSH,
     instance_0\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH, nextLineIndex\r\n
     \       PUSH, lineRenderer\r\n        EXTERN, \"UnityEngineLineRendererArray.__Get__SystemInt32__UnityEngineLineRenderer\"\r\n
@@ -86,59 +96,63 @@ MonoBehaviour:
     instance_4\r\n        PUSH, Int32_2\r\n        EXTERN, \"UnityEngineLineRendererArray.__get_Length__SystemInt32\"\r\n
     \       PUSH, Int32_1\r\n        PUSH, Int32_2\r\n        PUSH, Boolean_0\r\n
     \       EXTERN, \"SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean\"\r\n
-    \       PUSH, Boolean_0\r\n        JUMP_IF_FALSE, 0x000001E4\r\n        PUSH,
-    Int32_5\r\n        PUSH, nextLineIndex\r\n        COPY\r\n        JUMP, 0x0000020C\r\n
-    \       PUSH, Int32_1\r\n        PUSH, nextLineIndex\r\n        COPY\r\n        PUSH,
-    Int32_1\r\n        PUSH, nextLineIndex\r\n        COPY\r\n        PUSH, Boolean_1\r\n
-    \       PUSH, isDrawing\r\n        COPY\r\n        PUSH, lineRenderer\r\n        PUSH,
-    instance_5\r\n        COPY\r\n        PUSH, instance_5\r\n        PUSH, value_1\r\n
-    \       EXTERN, \"UnityEngineLineRenderer.__set_positionCount__SystemInt32__SystemVoid\"\r\n
-    \       PUSH, penTip\r\n        PUSH, instance_6\r\n        COPY\r\n        PUSH,
-    instance_6\r\n        PUSH, startPosition\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
+    \       PUSH, Boolean_0\r\n        JUMP_IF_FALSE, 0x00000210\r\n        PUSH,
+    Int32_5\r\n        PUSH, nextLineIndex\r\n        COPY\r\n        PUSH, ClearDebug\r\n
+    \       PUSH, instance_5\r\n        COPY\r\n        PUSH, instance_5\r\n        PUSH,
+    value_1\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       JUMP, 0x00000264\r\n        PUSH, Int32_1\r\n        PUSH, nextLineIndex\r\n
+    \       COPY\r\n        PUSH, Int32_1\r\n        PUSH, nextLineIndex\r\n        COPY\r\n
+    \       PUSH, ClearDebug\r\n        PUSH, instance_6\r\n        COPY\r\n        PUSH,
+    instance_6\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, Boolean_1\r\n        PUSH, isDrawing\r\n        COPY\r\n        PUSH,
+    lineRenderer\r\n        PUSH, instance_7\r\n        COPY\r\n        PUSH, instance_7\r\n
+    \       PUSH, value_3\r\n        EXTERN, \"UnityEngineLineRenderer.__set_positionCount__SystemInt32__SystemVoid\"\r\n
+    \       PUSH, penTip\r\n        PUSH, instance_8\r\n        COPY\r\n        PUSH,
+    instance_8\r\n        PUSH, startPosition\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
     \       PUSH, Int32_6\r\n        PUSH, currentIndex\r\n        COPY\r\n        PUSH,
     start_0\r\n        PUSH, index_0\r\n        COPY\r\n        PUSH, index_0\r\n
     \       PUSH, end_0\r\n        PUSH, condition_0\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n
-    \       PUSH, condition_0\r\n        JUMP_IF_FALSE, 0x000003C4\r\n        PUSH,
-    lineRenderer\r\n        PUSH, instance_7\r\n        COPY\r\n        PUSH, index_0\r\n
+    \       PUSH, condition_0\r\n        JUMP_IF_FALSE, 0x0000041C\r\n        PUSH,
+    lineRenderer\r\n        PUSH, instance_9\r\n        COPY\r\n        PUSH, index_0\r\n
     \       PUSH, index_1\r\n        COPY\r\n        PUSH, penTip\r\n        PUSH,
-    instance_8\r\n        COPY\r\n        PUSH, instance_8\r\n        PUSH, position_0\r\n
+    instance_A\r\n        COPY\r\n        PUSH, instance_A\r\n        PUSH, position_0\r\n
     \       EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
-    \       PUSH, instance_7\r\n        PUSH, index_1\r\n        PUSH, position_0\r\n
+    \       PUSH, instance_9\r\n        PUSH, index_1\r\n        PUSH, position_0\r\n
     \       EXTERN, \"UnityEngineLineRenderer.__SetPosition__SystemInt32_UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, LineStartPosition\r\n        PUSH, instance_9\r\n        COPY\r\n
-    \       PUSH, instance_9\r\n        PUSH, startPosition\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, isdrawing\r\n        PUSH, instance_A\r\n        COPY\r\n        PUSH,
-    instance_A\r\n        PUSH, value_3\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, LineStartPosition\r\n        PUSH, instance_B\r\n        COPY\r\n
+    \       PUSH, instance_B\r\n        PUSH, startPosition\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
+    \       PUSH, isdrawing\r\n        PUSH, instance_C\r\n        COPY\r\n        PUSH,
+    instance_C\r\n        PUSH, value_5\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
     \       PUSH, index_0\r\n        PUSH, step_0\r\n        PUSH, index_0\r\n        EXTERN,
     \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n        JUMP,
-    0x000002A0\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPickupUseUp\r\n
+    0x000002F8\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPickupUseUp\r\n
     \   \r\n    _onPickupUseUp:\r\n    \r\n        PUSH, Boolean_2\r\n        PUSH,
-    isDrawing\r\n        COPY\r\n        PUSH, LineEndPosition\r\n        PUSH, instance_B\r\n
-    \       COPY\r\n        PUSH, penTip\r\n        PUSH, instance_C\r\n        COPY\r\n
-    \       PUSH, instance_C\r\n        PUSH, value_4\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
-    \       PUSH, instance_B\r\n        PUSH, value_4\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, isdrawing\r\n        PUSH, instance_D\r\n        COPY\r\n        PUSH,
-    instance_D\r\n        PUSH, value_5\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
-    \       PUSH, line\r\n        PUSH, instance_E\r\n        COPY\r\n        PUSH,
-    instance_E\r\n        PUSH, eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    isDrawing\r\n        COPY\r\n        PUSH, LineEndPosition\r\n        PUSH, instance_D\r\n
+    \       COPY\r\n        PUSH, penTip\r\n        PUSH, instance_E\r\n        COPY\r\n
+    \       PUSH, instance_E\r\n        PUSH, value_6\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
+    \       PUSH, instance_D\r\n        PUSH, value_6\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
+    \       PUSH, isdrawing\r\n        PUSH, instance_F\r\n        COPY\r\n        PUSH,
+    instance_F\r\n        PUSH, value_7\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, line\r\n        PUSH, instance_10\r\n        COPY\r\n        PUSH,
+    instance_10\r\n        PUSH, eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _update\r\n    \r\n    _update:\r\n
-    \   \r\n        PUSH, isDrawing\r\n        JUMP_IF_FALSE, 0x00000700\r\n        PUSH,
-    penTip\r\n        PUSH, instance_F\r\n        COPY\r\n        PUSH, instance_F\r\n
+    \   \r\n        PUSH, isDrawing\r\n        JUMP_IF_FALSE, 0x00000758\r\n        PUSH,
+    penTip\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH, instance_11\r\n
     \       PUSH, a_0\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
     \       PUSH, a_0\r\n        PUSH, startPosition\r\n        PUSH, Single_0\r\n
     \       EXTERN, \"UnityEngineVector3.__Distance__UnityEngineVector3_UnityEngineVector3__SystemSingle\"\r\n
     \       PUSH, Single_0\r\n        PUSH, minMoveDistance\r\n        PUSH, Boolean_4\r\n
     \       EXTERN, \"SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n
-    \       PUSH, Boolean_4\r\n        JUMP_IF_FALSE, 0x000006CC\r\n        PUSH,
-    lineRenderer\r\n        PUSH, instance_10\r\n        COPY\r\n        PUSH, currentIndex\r\n
-    \       PUSH, Int32_8\r\n        PUSH, value_6\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       PUSH, instance_10\r\n        PUSH, value_6\r\n        EXTERN, \"UnityEngineLineRenderer.__set_positionCount__SystemInt32__SystemVoid\"\r\n
-    \       PUSH, lineRenderer\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH,
-    penTip\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH, instance_12\r\n
+    \       PUSH, Boolean_4\r\n        JUMP_IF_FALSE, 0x00000724\r\n        PUSH,
+    lineRenderer\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH, currentIndex\r\n
+    \       PUSH, Int32_8\r\n        PUSH, value_8\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
+    \       PUSH, instance_12\r\n        PUSH, value_8\r\n        EXTERN, \"UnityEngineLineRenderer.__set_positionCount__SystemInt32__SystemVoid\"\r\n
+    \       PUSH, lineRenderer\r\n        PUSH, instance_13\r\n        COPY\r\n        PUSH,
+    penTip\r\n        PUSH, instance_14\r\n        COPY\r\n        PUSH, instance_14\r\n
     \       PUSH, position_1\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
-    \       PUSH, instance_11\r\n        PUSH, currentIndex\r\n        PUSH, position_1\r\n
+    \       PUSH, instance_13\r\n        PUSH, currentIndex\r\n        PUSH, position_1\r\n
     \       EXTERN, \"UnityEngineLineRenderer.__SetPosition__SystemInt32_UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, penTip\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
+    \       PUSH, penTip\r\n        PUSH, instance_14\r\n        COPY\r\n        PUSH,
     position_1\r\n        PUSH, startPosition\r\n        COPY\r\n        PUSH, position_1\r\n
     \       PUSH, startPosition\r\n        COPY\r\n        PUSH, currentIndex\r\n
     \       PUSH, Int32_A\r\n        PUSH, currentIndex\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
@@ -147,21 +161,21 @@ MonoBehaviour:
     \"SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32\"\r\n        PUSH,
     Int32_B\r\n        PUSH, Int32_C\r\n        PUSH, Boolean_5\r\n        EXTERN,
     \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n        PUSH,
-    Boolean_5\r\n        JUMP_IF_FALSE, 0x000006C4\r\n        PUSH, line\r\n        PUSH,
-    instance_13\r\n        COPY\r\n        PUSH, instance_13\r\n        PUSH, eventName_1\r\n
+    Boolean_5\r\n        JUMP_IF_FALSE, 0x0000071C\r\n        PUSH, line\r\n        PUSH,
+    instance_15\r\n        COPY\r\n        PUSH, instance_15\r\n        PUSH, eventName_1\r\n
     \       EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0x000006C4\r\n        JUMP, 0x000006CC\r\n        PUSH, LineFollowPosition\r\n
-    \       PUSH, instance_14\r\n        COPY\r\n        PUSH, instance_14\r\n        PUSH,
+    \       JUMP, 0x0000071C\r\n        JUMP, 0x00000724\r\n        PUSH, LineFollowPosition\r\n
+    \       PUSH, instance_16\r\n        COPY\r\n        PUSH, instance_16\r\n        PUSH,
     startPosition\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       JUMP, 0x00000700\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onOwnershipRequest\r\n
+    \       JUMP, 0x00000758\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onOwnershipRequest\r\n
     \   \r\n    _onOwnershipRequest:\r\n    \r\n        PUSH, Boolean_6\r\n        PUSH,
     __returnValue\r\n        COPY\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export
     _start\r\n    \r\n    _start:\r\n    \r\n        PUSH, linesContainer\r\n        PUSH,
-    instance_15\r\n        COPY\r\n        PUSH, Type_1\r\n        PUSH, type_1\r\n
-    \       COPY\r\n        PUSH, instance_15\r\n        PUSH, type_1\r\n        PUSH,
+    instance_17\r\n        COPY\r\n        PUSH, Type_1\r\n        PUSH, type_1\r\n
+    \       COPY\r\n        PUSH, instance_17\r\n        PUSH, type_1\r\n        PUSH,
     linePool\r\n        EXTERN, \"UnityEngineTransform.__GetComponentsInChildren__TArray\"\r\n
-    \       PUSH, isdrawing\r\n        PUSH, instance_16\r\n        COPY\r\n        PUSH,
-    instance_16\r\n        PUSH, value_8\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, isdrawing\r\n        PUSH, instance_18\r\n        COPY\r\n        PUSH,
+    instance_18\r\n        PUSH, value_A\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -287,7 +301,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Variable_UnityEngineVector3
       uid: d334b1c5-6650-4eed-98ce-15298772eaeb
-      position: {x: -113.67079, y: -1403.2654}
+      position: {x: -6457.337, y: -7348.7886}
       nodeUIDs:
       - 
       - 
@@ -382,7 +396,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_UnityEngineLineRenderer
       uid: fb115b05-38f7-40c6-bb89-ab0b8344bfa3
-      position: {x: 0, y: 0}
+      position: {x: 445, y: -2260}
       nodeUIDs:
       - 
       - 
@@ -420,7 +434,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|1
     - fullName: Variable_UnityEngineTransform
       uid: 966d2d42-1a04-4d8a-9ca0-182968231666
-      position: {x: -550, y: -820}
+      position: {x: -105, y: -3080}
       nodeUIDs:
       - 
       - 
@@ -694,7 +708,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
     - fullName: Get_Variable
       uid: 5c315108-6bd1-4ec9-8dfe-d87d71d57935
-      position: {x: -280, y: 1300}
+      position: {x: -318, y: 1298}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -998,7 +1012,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Variable_UnityEngineTransform
       uid: b2b6f3fc-a9de-45e7-8ad7-4b4ebb29d81b
-      position: {x: 0, y: 0}
+      position: {x: 2200, y: 325}
       nodeUIDs:
       - 
       - 
@@ -1097,7 +1111,8 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 184beac9-cc8e-4518-ae7e-46ee360b418d|0
-      flowUIDs: []
+      flowUIDs:
+      - b37357e3-b4d5-4fbb-8f10-bc089ffb952d
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|f665a479-cfa0-4904-bdfd-4409aab39fbd
@@ -1118,7 +1133,8 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 34926c12-31d3-4ddc-bbe8-bb44bacc0085|0
-      flowUIDs: []
+      flowUIDs:
+      - 0e91d4eb-ccb4-4b5c-9377-e4fc55c2f091
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|f665a479-cfa0-4904-bdfd-4409aab39fbd
@@ -1205,7 +1221,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Variable_UnityEngineLineRendererArray
       uid: 6f8956a9-34d3-41ca-b1fc-f4bc56f41a0a
-      position: {x: 0, y: 0}
+      position: {x: 480, y: 490}
       nodeUIDs:
       - 
       - 
@@ -1462,7 +1478,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
     - fullName: Variable_UnityEngineMaterial
       uid: 1fb710f9-a943-4840-8af2-cf1781fd2c60
-      position: {x: -1533.3909, y: -4010.9553}
+      position: {x: -6538.536, y: -4772.1455}
       nodeUIDs:
       - 
       - 
@@ -1556,6 +1572,276 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null|{"r":1.0,"g":0.0,"b":0.7932252883911133,"a":1.0}
+    - fullName: UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid
+      uid: b37357e3-b4d5-4fbb-8f10-bc089ffb952d
+      position: {x: 995.53143, y: 823.81775}
+      nodeUIDs:
+      - 0f0693a5-26c1-4d65-9631-f5d04c5cb51f
+      - 
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null|{"r":0.121529221534729,"g":1.0,"b":0.0,"a":1.0}
+    - fullName: Get_Variable
+      uid: 0f0693a5-26c1-4d65-9631-f5d04c5cb51f
+      position: {x: 652.0219, y: 909.4428}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|318aeaa9-1111-465b-b44f-28fbdd6e28a9
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Variable_UnityEngineMaterial
+      uid: 318aeaa9-1111-465b-b44f-28fbdd6e28a9
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ClearDebug
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid
+      uid: 0e91d4eb-ccb4-4b5c-9377-e4fc55c2f091
+      position: {x: 992.6575, y: 1044.2655}
+      nodeUIDs:
+      - 0f0693a5-26c1-4d65-9631-f5d04c5cb51f|0
+      - 
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null|{"r":1.0,"g":0.0,"b":0.11936569213867188,"a":1.0}
+    - fullName: Variable_UnityEngineTransform
+      uid: ba60a759-7a45-4448-a111-7071f968115a
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ClearSpot
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineLineRenderer
+      uid: 477eba6d-4c18-46cd-9343-9a60b4b2fe3e
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|LineClearPoint
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_SystemBoolean
+      uid: f7f9ce87-6a65-449f-828e-1bcaeeeb9ec1
+      position: {x: -1326.1627, y: -856.60657}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ClearReady
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineLineRenderer
+      uid: b77588c0-c2a1-4cef-8dca-082a457031dc
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Line1
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineLineRenderer
+      uid: 8a2906e0-0440-4b73-ba27-bde0b34bff4c
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Line2
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineLineRenderer
+      uid: c448ed78-4277-497a-8024-c2d54fd3f184
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Line3
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineLineRenderer
+      uid: dfa346d6-e43f-4876-9947-1afa3cf9edef
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Line4
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineLineRenderer
+      uid: 958cfd31-056f-476a-a8a6-b118e6e1f85e
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Line5
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineMaterial
+      uid: 4bca3031-eb4c-4353-be93-556d64a049b5
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|PenMaterial
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
+      uid: 63cc0f6b-7720-4ebe-9aaa-a4929000363f
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|StartCube
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     updateOrder: 0
   graphElementData:
   - type: 2
@@ -1572,7 +1858,7 @@ MonoBehaviour:
       currentIndex","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 2
     uid: 325ed681-3a4b-4fa9-864d-30a4489a1b47
-    jsonData: '{"uid":"325ed681-3a4b-4fa9-864d-30a4489a1b47","layout":{"serializedVersion":"2","x":-565.0,"y":1165.0,"width":692.0,"height":347.0},"containedElements":["5c315108-6bd1-4ec9-8dfe-d87d71d57935","44b730f7-1b3b-46a6-9019-6c5797d1d65b","a08e5e37-f6cb-43f2-b1df-8cee7513c828","097251f0-81ce-4666-8f69-1c0ebdaca014","5f2ca42a-ad69-4a3c-8cf2-440ceb2c6dd3"],"title":"Initialize
+    jsonData: '{"uid":"325ed681-3a4b-4fa9-864d-30a4489a1b47","layout":{"serializedVersion":"2","x":-565.0,"y":1165.0,"width":691.0,"height":353.0},"containedElements":["5c315108-6bd1-4ec9-8dfe-d87d71d57935","44b730f7-1b3b-46a6-9019-6c5797d1d65b","a08e5e37-f6cb-43f2-b1df-8cee7513c828","097251f0-81ce-4666-8f69-1c0ebdaca014","5f2ca42a-ad69-4a3c-8cf2-440ceb2c6dd3"],"title":"Initialize
       Line with 2 Points at Pen Tip","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 2
     uid: 8a249bae-0e0e-499a-8651-dfedaee1fca7
@@ -1627,8 +1913,14 @@ MonoBehaviour:
   - type: 5
     uid: f47ee98e-07c5-4678-bee9-ae4d5e19bc86
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":273.0,"height":544.0}}'
+  - type: 5
+    uid: 706990a0-3a58-4364-b920-cec17f7b5d65
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":6.0,"y":102.0,"width":273.0,"height":544.0}}'
+  - type: 5
+    uid: 6e00294a-7f7b-48e5-823f-1c8676bb1933
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":6.0,"y":103.0,"width":273.0,"height":544.0}}'
   viewTransform:
-    position: {x: 65.46356, y: -410.58936}
-    scale: 0.57175326
+    position: {x: -5103.461, y: -587.7342}
+    scale: 1.15
   version: 1.0.0
   showAssembly: 0

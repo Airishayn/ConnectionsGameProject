@@ -1713,7 +1713,7 @@ MonoBehaviour:
     uid: a4beed74-9236-441f-b2bd-9f60806dc578
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":245.0,"height":508.0}}'
   viewTransform:
-    position: {x: 1109.2959, y: 128.08368}
-    scale: 0.375937
+    position: {x: 810.3132, y: 55.491707}
+    scale: 0.43232757
   version: 1.0.0
   showAssembly: 0
