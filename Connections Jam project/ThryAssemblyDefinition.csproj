@@ -311,116 +311,134 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="VRC.Udon.Compiler">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.Compiler.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.Compiler.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.EditorBindings">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.EditorBindings.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.EditorBindings.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.Graph">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.Graph.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.Graph.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.UAssembly">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.UAssembly.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.UAssembly.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.VRCGraphModules">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.VRCGraphModules.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.VRCGraphModules.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.VRCTypeResolverModules">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.VRCTypeResolverModules.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/Editor/External/VRC.Udon.VRCTypeResolverModules.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.ClientBindings">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.ClientBindings.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.ClientBindings.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.Common">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.Common.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.Common.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.Security">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.Security.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.Security.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.VM">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.VM.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.VM.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.VRCWrapperModules">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.VRCWrapperModules.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.VRCWrapperModules.dll</HintPath>
     </Reference>
     <Reference Include="VRC.Udon.Wrapper">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.Wrapper.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/Udon/External/VRC.Udon.Wrapper.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.CognitoIdentity">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.Core">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.Core.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.S3">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.S3.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.S3.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.SecurityToken">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
     </Reference>
     <Reference Include="DotZLib">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/DotZLib/DotZLib.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/DotZLib/DotZLib.dll</HintPath>
     </Reference>
     <Reference Include="Blake2Sharp">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/librsync/Blake2Sharp.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/librsync/Blake2Sharp.dll</HintPath>
     </Reference>
     <Reference Include="librsync.net">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/librsync/librsync.net.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/librsync/librsync.net.dll</HintPath>
     </Reference>
     <Reference Include="Collections.Pooled">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/Collections.Pooled.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/Collections.Pooled.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Buffers.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Immutable">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Collections.Immutable.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Collections.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Memory.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Numerics.Vectors.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/Managed/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Dependencies/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="VRCCore-Editor">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCCore-Editor.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCCore-Editor.dll</HintPath>
     </Reference>
     <Reference Include="VRCSDK3-Editor">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDK3-Editor.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDK3-Editor.dll</HintPath>
     </Reference>
     <Reference Include="VRCSDK3">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDK3.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDK3.dll</HintPath>
     </Reference>
     <Reference Include="VRCSDKBase-Editor">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDKBase-Editor.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDKBase-Editor.dll</HintPath>
     </Reference>
     <Reference Include="VRCSDKBase">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDKBase.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Assets/VRCSDK/Plugins/VRCSDKBase.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/Source/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/Source_2/ConnectionsGameProject/Connections Jam project/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
