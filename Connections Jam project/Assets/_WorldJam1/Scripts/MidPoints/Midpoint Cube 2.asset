@@ -19,50 +19,55 @@ MonoBehaviour:
     \   \r\n    Boolean_0: %SystemBoolean, null\r\n    Boolean_1: %SystemBoolean,
     null\r\n    Boolean_2: %SystemBoolean, null\r\n    Boolean_3: %SystemBoolean,
     null\r\n    Boolean_4: %SystemBoolean, null\r\n    Boolean_5: %SystemBoolean,
-    null\r\n    Boolean_6: %SystemBoolean, null\r\n    Single_0: %SystemSingle, null\r\n
-    \   Single_1: %SystemSingle, null\r\n    Vector3_1: %UnityEngineVector3, null\r\n
-    \   Single_2: %SystemSingle, null\r\n    Single_3: %SystemSingle, null\r\n    Vector3_0:
-    %UnityEngineVector3, null\r\n    Vector3_2: %UnityEngineVector3, null\r\n    Boolean_7:
-    %SystemBoolean, null\r\n    Boolean_8: %SystemBoolean, null\r\n    Single_4: %SystemSingle,
-    null\r\n    Single_5: %SystemSingle, null\r\n    Vector3_4: %UnityEngineVector3,
-    null\r\n    Single_6: %SystemSingle, null\r\n    Single_7: %SystemSingle, null\r\n
-    \   Vector3_3: %UnityEngineVector3, null\r\n    Vector3_5: %UnityEngineVector3,
-    null\r\n    Boolean_9: %SystemBoolean, null\r\n    Boolean_A: %SystemBoolean,
-    null\r\n    Single_8: %SystemSingle, null\r\n    Single_9: %SystemSingle, null\r\n
-    \   Vector3_7: %UnityEngineVector3, null\r\n    instance_1: %UnityEngineTransform,
-    this\r\n    Single_A: %SystemSingle, null\r\n    Single_B: %SystemSingle, null\r\n
-    \   Vector3_6: %UnityEngineVector3, null\r\n    instance_0: %UnityEngineTransform,
-    this\r\n    Vector3_8: %UnityEngineVector3, null\r\n    instance_2: %UnityEngineTransform,
-    this\r\n    Boolean_B: %SystemBoolean, null\r\n    instance_3: %UnityEngineMaterial,
-    null\r\n    value_0: %UnityEngineColor, null\r\n    instance_4: %VRCUdonUdonBehaviour,
-    this\r\n    eventName_0: %SystemString, null\r\n    Boolean_D: %SystemBoolean,
-    null\r\n    Boolean_E: %SystemBoolean, null\r\n    instance_5: %UnityEngineMaterial,
-    null\r\n    value_1: %UnityEngineColor, null\r\n    instance_6: %VRCUdonUdonBehaviour,
-    this\r\n    eventName_1: %SystemString, null\r\n    Boolean_C: %SystemBoolean,
+    null\r\n    Boolean_6: %SystemBoolean, null\r\n    Boolean_7: %SystemBoolean,
+    null\r\n    Single_0: %SystemSingle, null\r\n    Single_1: %SystemSingle, null\r\n
+    \   Vector3_1: %UnityEngineVector3, null\r\n    Single_2: %SystemSingle, null\r\n
+    \   Single_3: %SystemSingle, null\r\n    Vector3_0: %UnityEngineVector3, null\r\n
+    \   Vector3_2: %UnityEngineVector3, null\r\n    Boolean_8: %SystemBoolean, null\r\n
+    \   Boolean_9: %SystemBoolean, null\r\n    Single_4: %SystemSingle, null\r\n    Single_5:
+    %SystemSingle, null\r\n    Vector3_4: %UnityEngineVector3, null\r\n    Single_6:
+    %SystemSingle, null\r\n    Single_7: %SystemSingle, null\r\n    Vector3_3: %UnityEngineVector3,
+    null\r\n    Vector3_5: %UnityEngineVector3, null\r\n    Boolean_A: %SystemBoolean,
+    null\r\n    Boolean_B: %SystemBoolean, null\r\n    Single_8: %SystemSingle, null\r\n
+    \   Single_9: %SystemSingle, null\r\n    Vector3_7: %UnityEngineVector3, null\r\n
+    \   instance_1: %UnityEngineTransform, this\r\n    Single_A: %SystemSingle, null\r\n
+    \   Single_B: %SystemSingle, null\r\n    Vector3_6: %UnityEngineVector3, null\r\n
+    \   instance_0: %UnityEngineTransform, this\r\n    Vector3_8: %UnityEngineVector3,
+    null\r\n    instance_2: %UnityEngineTransform, this\r\n    Boolean_C: %SystemBoolean,
+    null\r\n    instance_3: %UnityEngineMaterial, null\r\n    value_0: %UnityEngineColor,
+    null\r\n    instance_4: %VRCUdonUdonBehaviour, this\r\n    eventName_0: %SystemString,
+    null\r\n    Boolean_E: %SystemBoolean, null\r\n    Boolean_F: %SystemBoolean,
+    null\r\n    instance_5: %UnityEngineMaterial, null\r\n    value_1: %UnityEngineColor,
+    null\r\n    instance_6: %VRCUdonUdonBehaviour, this\r\n    eventName_1: %SystemString,
+    null\r\n    Boolean_D: %SystemBoolean, null\r\n    Boolean_10: %SystemBoolean,
     null\r\n    instance_7: %UnityEngineMaterial, null\r\n    value_2: %UnityEngineColor,
-    null\r\n    Boolean_F: %SystemBoolean, null\r\n    instance_8: %UnityEngineMaterial,
-    null\r\n    value_3: %UnityEngineColor, null\r\n    LowerBound: %UnityEngineTransform,
+    null\r\n    Boolean_11: %SystemBoolean, null\r\n    instance_8: %UnityEngineMaterial,
+    null\r\n    value_3: %UnityEngineColor, null\r\n    Boolean_12: %SystemBoolean,
+    null\r\n    Boolean_13: %SystemBoolean, null\r\n    instance_9: %UnityEngineMaterial,
+    null\r\n    value_4: %UnityEngineColor, null\r\n    LowerBound: %UnityEngineTransform,
     this\r\n    UpperBound: %UnityEngineTransform, this\r\n    CubeMaterial: %UnityEngineMaterial,
     null\r\n    LineCurrentPosition: %UnityEngineTransform, this\r\n    DidLinePassThroughHere:
     %SystemBoolean, null\r\n    SetCheck: %VRCUdonUdonBehaviour, this\r\n    IsIn:
-    %SystemBoolean, null\r\n    IsThrough: %SystemBoolean, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
-    \   .export _update\r\n    \r\n    _update:\r\n    \r\n        PUSH, LineCurrentPosition\r\n
-    \       PUSH, instance_0\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH,
-    Vector3_0\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
+    %SystemBoolean, null\r\n    IsThrough: %SystemBoolean, null\r\n    Correct: %SystemBoolean,
+    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _update\r\n    \r\n
+    \   _update:\r\n    \r\n        PUSH, Correct\r\n        JUMP_IF_FALSE, 0x00000018\r\n
+    \       JUMP, 0x000005B0\r\n        PUSH, LineCurrentPosition\r\n        PUSH,
+    instance_0\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH, Vector3_0\r\n
+    \       EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
     \       PUSH, Vector3_0\r\n        PUSH, Single_0\r\n        EXTERN, \"UnityEngineVector3.__get_x__SystemSingle\"\r\n
     \       PUSH, LowerBound\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
     instance_1\r\n        PUSH, Vector3_1\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
     \       PUSH, Vector3_1\r\n        PUSH, Single_1\r\n        EXTERN, \"UnityEngineVector3.__get_x__SystemSingle\"\r\n
-    \       PUSH, Single_0\r\n        PUSH, Single_1\r\n        PUSH, Boolean_5\r\n
+    \       PUSH, Single_0\r\n        PUSH, Single_1\r\n        PUSH, Boolean_6\r\n
     \       EXTERN, \"SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n
     \       PUSH, LineCurrentPosition\r\n        PUSH, instance_0\r\n        COPY\r\n
     \       PUSH, Single_0\r\n        PUSH, Single_2\r\n        COPY\r\n        PUSH,
     UpperBound\r\n        PUSH, instance_2\r\n        COPY\r\n        PUSH, instance_2\r\n
     \       PUSH, Vector3_2\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n
     \       PUSH, Vector3_2\r\n        PUSH, Single_3\r\n        EXTERN, \"UnityEngineVector3.__get_x__SystemSingle\"\r\n
-    \       PUSH, Single_0\r\n        PUSH, Single_3\r\n        PUSH, Boolean_6\r\n
+    \       PUSH, Single_0\r\n        PUSH, Single_3\r\n        PUSH, Boolean_7\r\n
     \       EXTERN, \"SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n
-    \       PUSH, Boolean_5\r\n        PUSH, Boolean_6\r\n        PUSH, Boolean_3\r\n
+    \       PUSH, Boolean_6\r\n        PUSH, Boolean_7\r\n        PUSH, Boolean_4\r\n
     \       EXTERN, \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n
     \       PUSH, LineCurrentPosition\r\n        PUSH, instance_0\r\n        COPY\r\n
     \       PUSH, Vector3_0\r\n        PUSH, Vector3_3\r\n        COPY\r\n        PUSH,
@@ -70,7 +75,7 @@ MonoBehaviour:
     \       PUSH, LowerBound\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
     Vector3_1\r\n        PUSH, Vector3_4\r\n        COPY\r\n        PUSH, Vector3_1\r\n
     \       PUSH, Single_5\r\n        EXTERN, \"UnityEngineVector3.__get_y__SystemSingle\"\r\n
-    \       PUSH, Single_4\r\n        PUSH, Single_5\r\n        PUSH, Boolean_7\r\n
+    \       PUSH, Single_4\r\n        PUSH, Single_5\r\n        PUSH, Boolean_8\r\n
     \       EXTERN, \"SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n
     \       PUSH, LineCurrentPosition\r\n        PUSH, instance_0\r\n        COPY\r\n
     \       PUSH, Vector3_0\r\n        PUSH, Vector3_3\r\n        COPY\r\n        PUSH,
@@ -78,11 +83,11 @@ MonoBehaviour:
     \       PUSH, instance_2\r\n        COPY\r\n        PUSH, Vector3_2\r\n        PUSH,
     Vector3_5\r\n        COPY\r\n        PUSH, Vector3_2\r\n        PUSH, Single_7\r\n
     \       EXTERN, \"UnityEngineVector3.__get_y__SystemSingle\"\r\n        PUSH,
-    Single_4\r\n        PUSH, Single_7\r\n        PUSH, Boolean_8\r\n        EXTERN,
+    Single_4\r\n        PUSH, Single_7\r\n        PUSH, Boolean_9\r\n        EXTERN,
     \"SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n        PUSH,
-    Boolean_7\r\n        PUSH, Boolean_8\r\n        PUSH, Boolean_4\r\n        EXTERN,
+    Boolean_8\r\n        PUSH, Boolean_9\r\n        PUSH, Boolean_5\r\n        EXTERN,
     \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n
-    \       PUSH, Boolean_3\r\n        PUSH, Boolean_4\r\n        PUSH, Boolean_1\r\n
+    \       PUSH, Boolean_4\r\n        PUSH, Boolean_5\r\n        PUSH, Boolean_2\r\n
     \       EXTERN, \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n
     \       PUSH, LineCurrentPosition\r\n        PUSH, instance_0\r\n        COPY\r\n
     \       PUSH, Vector3_0\r\n        PUSH, Vector3_6\r\n        COPY\r\n        PUSH,
@@ -90,7 +95,7 @@ MonoBehaviour:
     \       PUSH, LowerBound\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
     Vector3_1\r\n        PUSH, Vector3_7\r\n        COPY\r\n        PUSH, Vector3_1\r\n
     \       PUSH, Single_9\r\n        EXTERN, \"UnityEngineVector3.__get_z__SystemSingle\"\r\n
-    \       PUSH, Single_8\r\n        PUSH, Single_9\r\n        PUSH, Boolean_9\r\n
+    \       PUSH, Single_8\r\n        PUSH, Single_9\r\n        PUSH, Boolean_A\r\n
     \       EXTERN, \"SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n
     \       PUSH, LineCurrentPosition\r\n        PUSH, instance_0\r\n        COPY\r\n
     \       PUSH, Vector3_0\r\n        PUSH, Vector3_6\r\n        COPY\r\n        PUSH,
@@ -98,37 +103,43 @@ MonoBehaviour:
     \       PUSH, instance_2\r\n        COPY\r\n        PUSH, Vector3_2\r\n        PUSH,
     Vector3_8\r\n        COPY\r\n        PUSH, Vector3_2\r\n        PUSH, Single_B\r\n
     \       EXTERN, \"UnityEngineVector3.__get_z__SystemSingle\"\r\n        PUSH,
-    Single_8\r\n        PUSH, Single_B\r\n        PUSH, Boolean_A\r\n        EXTERN,
+    Single_8\r\n        PUSH, Single_B\r\n        PUSH, Boolean_B\r\n        EXTERN,
     \"SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n        PUSH,
-    Boolean_9\r\n        PUSH, Boolean_A\r\n        PUSH, Boolean_2\r\n        EXTERN,
+    Boolean_A\r\n        PUSH, Boolean_B\r\n        PUSH, Boolean_3\r\n        EXTERN,
     \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n
-    \       PUSH, Boolean_1\r\n        PUSH, Boolean_2\r\n        PUSH, Boolean_0\r\n
+    \       PUSH, Boolean_2\r\n        PUSH, Boolean_3\r\n        PUSH, Boolean_1\r\n
     \       EXTERN, \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n
-    \       PUSH, Boolean_0\r\n        JUMP_IF_FALSE, 0x000004FC\r\n        PUSH,
-    IsIn\r\n        JUMP_IF_FALSE, 0x00000474\r\n        JUMP, 0x000004F4\r\n        PUSH,
+    \       PUSH, Boolean_1\r\n        JUMP_IF_FALSE, 0x00000514\r\n        PUSH,
+    IsIn\r\n        JUMP_IF_FALSE, 0x0000048C\r\n        JUMP, 0x0000050C\r\n        PUSH,
     CubeMaterial\r\n        PUSH, instance_3\r\n        COPY\r\n        PUSH, instance_3\r\n
     \       PUSH, value_0\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
-    \       PUSH, Boolean_C\r\n        PUSH, DidLinePassThroughHere\r\n        COPY\r\n
+    \       PUSH, Boolean_D\r\n        PUSH, DidLinePassThroughHere\r\n        COPY\r\n
     \       PUSH, SetCheck\r\n        PUSH, instance_4\r\n        COPY\r\n        PUSH,
     instance_4\r\n        PUSH, eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Boolean_C\r\n        PUSH, IsIn\r\n        COPY\r\n        JUMP,
-    0x00000598\r\n        PUSH, DidLinePassThroughHere\r\n        JUMP_IF_FALSE, 0x00000598\r\n
-    \       PUSH, IsThrough\r\n        JUMP_IF_FALSE, 0x00000524\r\n        JUMP,
-    0x00000590\r\n        PUSH, CubeMaterial\r\n        PUSH, instance_5\r\n        COPY\r\n
+    \       PUSH, Boolean_D\r\n        PUSH, IsIn\r\n        COPY\r\n        JUMP,
+    0x000005B0\r\n        PUSH, DidLinePassThroughHere\r\n        JUMP_IF_FALSE, 0x000005B0\r\n
+    \       PUSH, IsThrough\r\n        JUMP_IF_FALSE, 0x0000053C\r\n        JUMP,
+    0x000005A8\r\n        PUSH, CubeMaterial\r\n        PUSH, instance_5\r\n        COPY\r\n
     \       PUSH, instance_5\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
     \       PUSH, SetCheck\r\n        PUSH, instance_6\r\n        COPY\r\n        PUSH,
     instance_6\r\n        PUSH, eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Boolean_C\r\n        PUSH, IsThrough\r\n        COPY\r\n        JUMP,
-    0x00000598\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export Reset\r\n    \r\n
-    \   Reset:\r\n    \r\n        PUSH, CubeMaterial\r\n        PUSH, instance_7\r\n
+    \       PUSH, Boolean_D\r\n        PUSH, IsThrough\r\n        COPY\r\n        JUMP,
+    0x000005B0\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export Reset\r\n    \r\n
+    \   Reset:\r\n    \r\n        PUSH, Correct\r\n        JUMP_IF_FALSE, 0x000005D0\r\n
+    \       JUMP, 0x00000638\r\n        PUSH, CubeMaterial\r\n        PUSH, instance_7\r\n
     \       COPY\r\n        PUSH, instance_7\r\n        PUSH, value_2\r\n        EXTERN,
     \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n        PUSH,
-    Boolean_F\r\n        PUSH, IsIn\r\n        COPY\r\n        PUSH, Boolean_F\r\n
-    \       PUSH, IsThrough\r\n        COPY\r\n        PUSH, Boolean_F\r\n        PUSH,
+    Boolean_11\r\n        PUSH, IsIn\r\n        COPY\r\n        PUSH, Boolean_11\r\n
+    \       PUSH, IsThrough\r\n        COPY\r\n        PUSH, Boolean_11\r\n        PUSH,
     DidLinePassThroughHere\r\n        COPY\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n
     \   .export _start\r\n    \r\n    _start:\r\n    \r\n        PUSH, CubeMaterial\r\n
     \       PUSH, instance_8\r\n        COPY\r\n        PUSH, instance_8\r\n        PUSH,
     value_3\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, Boolean_12\r\n        PUSH, Correct\r\n        COPY\r\n        JUMP,
+    0xFFFFFFFC\r\n    \r\n    .export Correct\r\n    \r\n    Correct:\r\n    \r\n
+    \       PUSH, Boolean_13\r\n        PUSH, Correct\r\n        COPY\r\n        PUSH,
+    CubeMaterial\r\n        PUSH, instance_9\r\n        COPY\r\n        PUSH, instance_9\r\n
+    \       PUSH, value_4\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -179,14 +190,14 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Event_Update
       uid: 1225ff90-6e5b-4461-8249-e822c3081bea
-      position: {x: 370.24176, y: -572.8558}
+      position: {x: 246.24176, y: -685.8558}
       nodeUIDs: []
       flowUIDs:
-      - 62488534-15f5-4fab-a752-ac2cd9025862
+      - ff9f85d8-aa48-44e3-b9d7-7ddf8ef215a5
       nodeValues: []
     - fullName: Variable_UnityEngineMaterial
       uid: 19852c02-b8f9-4cc9-aa90-0f0c1bb7ca21
-      position: {x: -5040.6616, y: -3065.9932}
+      position: {x: -5977.5835, y: -1710.6887}
       nodeUIDs:
       - 
       - 
@@ -640,7 +651,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       flowUIDs:
-      - ea156fba-81bf-4ff6-adba-3a441ef4db89
+      - 4a71acea-1f1a-4c87-a6f0-9ae7a52f4cd3
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Reset
@@ -739,7 +750,7 @@ MonoBehaviour:
       - 2b5868e1-f8e4-4781-9afe-97c0b42b6c86
       - 
       flowUIDs:
-      - 
+      - 8ac69523-a8a9-4b32-9705-38ceb8f75f72
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -927,6 +938,149 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0a4b59c2-58e3-4ed8-ad77-77bbc1edf322
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: Variable_SystemBoolean
+      uid: 58ffaac5-468b-4d77-8cae-67e0da11a326
+      position: {x: 76.81323, y: 5176.7646}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Correct
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Event_Custom
+      uid: 4e3dac08-7c2d-4b98-a48e-1555e1ab5d5d
+      position: {x: 656.83655, y: -1443.5671}
+      nodeUIDs:
+      - 
+      flowUIDs:
+      - 302565de-068a-4b06-8204-6f727eba25cb
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Correct
+    - fullName: Set_Variable
+      uid: 302565de-068a-4b06-8204-6f727eba25cb
+      position: {x: 944.6624, y: -1443.567}
+      nodeUIDs:
+      - 
+      - 88d4a156-2a37-4a95-845a-b1bc89f11285
+      flowUIDs:
+      - 31876fcf-85d7-4319-8795-c5543ed5feba
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|58ffaac5-468b-4d77-8cae-67e0da11a326
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Const_SystemBoolean
+      uid: 88d4a156-2a37-4a95-845a-b1bc89f11285
+      position: {x: 773.3582, y: -1308.7844}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+    - fullName: Get_Variable
+      uid: d67a74fc-6922-40e8-9ab5-b6ccd7ca83cb
+      position: {x: 949.97217, y: -1267.0417}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|19852c02-b8f9-4cc9-aa90-0f0c1bb7ca21
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid
+      uid: 31876fcf-85d7-4319-8795-c5543ed5feba
+      position: {x: 1217.0074, y: -1425.5808}
+      nodeUIDs:
+      - d67a74fc-6922-40e8-9ab5-b6ccd7ca83cb
+      - 
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null|{"r":1.0,"g":1.0,"b":1.0,"a":1.0}
+    - fullName: Set_Variable
+      uid: 8ac69523-a8a9-4b32-9705-38ceb8f75f72
+      position: {x: 106.989845, y: -923.53723}
+      nodeUIDs:
+      - 
+      - a45790f6-7b86-4c45-b080-4d6566184691|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|58ffaac5-468b-4d77-8cae-67e0da11a326
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Const_SystemBoolean
+      uid: a45790f6-7b86-4c45-b080-4d6566184691
+      position: {x: -12.140167, y: -805.7998}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: Branch
+      uid: ff9f85d8-aa48-44e3-b9d7-7ddf8ef215a5
+      position: {x: 376.76978, y: -627.8397}
+      nodeUIDs:
+      - 3c225065-b9b9-47cb-bcbd-0798e4b3c6b8|0
+      flowUIDs:
+      - 
+      - 62488534-15f5-4fab-a752-ac2cd9025862
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: Get_Variable
+      uid: 3c225065-b9b9-47cb-bcbd-0798e4b3c6b8
+      position: {x: 282.76978, y: -501.83972}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|58ffaac5-468b-4d77-8cae-67e0da11a326
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Get_Variable
+      uid: 31b7a005-c8af-401b-bc0e-01f2081d6d82
+      position: {x: 613.0721, y: -1043.7201}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|58ffaac5-468b-4d77-8cae-67e0da11a326
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Branch
+      uid: 4a71acea-1f1a-4c87-a6f0-9ae7a52f4cd3
+      position: {x: 707.0721, y: -1169.7201}
+      nodeUIDs:
+      - 31b7a005-c8af-401b-bc0e-01f2081d6d82
+      flowUIDs:
+      - 
+      - ea156fba-81bf-4ff6-adba-3a441ef4db89
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
     updateOrder: 0
   graphElementData:
   - type: 5
@@ -937,7 +1091,7 @@ MonoBehaviour:
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":207.0,"height":376.0}}'
   - type: 2
     uid: cc32cad7-ad59-4dd4-a33b-eeb8c97c630c
-    jsonData: '{"uid":"cc32cad7-ad59-4dd4-a33b-eeb8c97c630c","layout":{"serializedVersion":"2","x":-1257.4912109375,"y":-722.7517700195313,"width":3581.0,"height":864.0},"containedElements":["dab9efe3-88b2-4555-860e-ca5fd4667859","db7734f6-c15b-406d-82b9-5730f650c750","950e442d-a1bf-47ce-be91-b8fc35ea2db3","78961dcd-3be6-4cb1-8cf7-61a250696c0f","48e30a12-b8aa-4454-9ae2-eeb7de3ff107","7346e9f6-32fa-4829-a333-7770361f104c","7a8a62f1-7993-44a3-9470-555ccf7354f8","dcf70988-ef2b-486a-85b1-f7c161bdd35b","dc537f45-1730-4a52-bcf6-89df7f7aceb6","29352225-15ec-4546-b907-c0fc5e8dad90","a0afad2b-a408-469b-ae54-a155d8711d94","297b2e91-8cac-4482-9785-b2c9803424a3","5a2adf49-cbc3-43e7-ab37-a117460cd86f","57db1c69-9f55-477e-a5f9-e4c55f098770","c636b731-9ccc-4cc4-ad86-81a562c90342","3f24fddc-fd43-4a91-afa2-93825c6be8d7","6cb3ac36-7c87-4253-9955-6b92490a5ca7","82051cea-361f-4cbf-b013-f2ac9c2676b0","08be7fa6-6a79-4819-bca7-b51d626227d6","77fe7aac-7d7e-42ba-a9ab-685ecd3d3f65","f2612279-cb34-4a93-8b5a-bb06b3c8260d","f03364cf-ce18-4ccc-9e2d-bb4e73de603e","e58faf2a-fc39-47e3-bab8-c49c6b21907e","e246d302-1520-444e-b99c-dc94f9d1d488","bbe69595-b954-4182-8f72-51b224f30edd","16bcac3f-2b6a-430d-8c48-515257b0de35","62488534-15f5-4fab-a752-ac2cd9025862","2416cf8c-4200-4c32-aacf-69920f8caba4","ff567dfd-7485-4266-a4a6-39ae00f3c627","da25dcc6-b982-4270-82f8-86b91d9ace82","5c076c66-7553-4451-89fe-719d12fa63f9","da073be0-76e8-49ed-bfa0-9c5fe8bccf4c","988ea2f4-fc7b-4e27-8d2a-1c3389bc7baa","4dffffd5-fcb6-4fd1-89cd-409df9765d78","2b3e28a1-68d2-4e4b-8064-a17744fb9399","0acb5781-9ef1-46a3-a936-11e3018c0f2a","527af8c1-266f-4257-b356-d224ae111160","2b50a894-a214-4d0e-be65-a8d754b5dd88","e3ead962-1b05-42df-b168-8185a341489b","d3bf041f-cee5-4e7a-b7f2-126f4e46ca3a","f7bf0ba9-14c1-48f2-a533-d705948d41df","9f886f35-9fce-49c0-8829-1cbeb208c39b","e6d29ca1-8513-4c50-aeaf-13093a96da9f","dba9c88b-1d4d-45d4-b77b-7b95b8181514","ac2f21fa-6630-48b5-b29f-cb6082783d9b","150a41c3-cdc5-4179-90a4-422722c410a5","e81969bd-b8c0-465d-92b4-67a2f1cac33b","c3b730c5-a177-46e1-a78d-6a9b22256617","9f336354-4cea-4bc3-9dde-14775bf89a47","58fbdcc6-f630-42d7-9d55-daed09605b15","b080d511-af1c-46ff-9f25-0b1690b81c8f","48985c0d-67df-4dce-b4fa-3da9f799fe7d","46f22ebb-517d-450a-9fe4-d3f5b95aa1e0","47fefb88-343c-4a68-828a-eeabddeb688e","149cdd3e-c2d4-4d78-b3f8-ddf96ee65d11","8faaee1b-b065-4e4f-a315-fb5fbcd3adc0","9a220025-e89f-4a70-9735-08e23d1b4eef","4cca4b96-c7b4-45b6-bef3-88abe5b8d868","0e76eb7e-56e9-42ec-8ae9-2825f68f1504","cf7803c3-85cf-4b59-9f69-5a2d6aafe236","21741778-4c6e-4e3a-baff-57d6e401f228","c7de8a16-b08e-4191-a863-193eba4202a6","4e8942c4-f8b8-46b2-9c9c-a3d8069ea071","f0ee8db4-500f-46e8-ac8b-61370db1e3b0","5f2a83ff-f178-40a6-8458-2d782ad255d3","ed845839-8930-49aa-a9d7-59a9a03f87da","2deec488-a038-461f-9ed8-8879dd2530d5","43534c80-5ec2-4efb-a470-643aa77b0b55","567a3967-bf10-498e-aa24-fa091ea174d0","e9acb8e5-3b16-44cb-b057-e6a847de498e","7c510e86-d6ce-424c-a553-0e1ddd4437b4","97a14550-8dcc-43dd-af1b-150e814e5a28","7bd6dd0f-72af-4a90-9a7c-f3cc96353bfb","4db2fc62-fe1d-4ae8-b5c7-5e9bb29f1cc6","dcaf88bc-bd1b-4fd0-be4e-2baef43bd1fc","79696c42-5a97-4601-a192-0f3da4da5425","85d10fb1-63c7-4bbd-968c-53a10a56f84a","dda60824-85e7-45ef-abd1-377df8750bf8","e6099ec0-1cd4-4d3e-8a3d-ce27bdaa1b84","99669098-f243-4df0-bc59-46e210185eef","5491655f-732c-4b06-8aa5-36170f541cf8","d8726eb9-ea20-45ca-a425-084000fd1883","59353022-182c-43bc-9f5c-6cf0ecadaa81","9aa76843-c35c-40cf-b2e4-e171550de2bb","5a594ffd-fc8f-45bf-b842-b829dcc95974","807758c4-6165-4b8a-831f-56525bb0b90c","dd411cd5-ea12-4a95-aafb-72c5b6e35bb7","1225ff90-6e5b-4461-8249-e822c3081bea","05221550-cd36-424f-9e19-6d7e87145da2","667d0f4c-9a15-4bb8-baeb-7fd21a98331d","f8b39c97-ff92-4fcd-ba69-00a3bd8abed4","07e606d5-9f83-4eb8-9d38-a23f8c02252d","586a6632-cc83-4416-a39f-db583640e7ad","d736f022-860c-4572-bd69-bc3922966328","ad3d325c-80ab-4a71-a09d-a1f02512b625","90338253-6a13-4842-806e-b71a99e4ab50","2b12275c-81a7-4aea-b88c-40257c75ac25","3fe37561-d095-400a-b9b7-eb5cae203992","c2e2e20d-7390-458c-bc5c-ad7768c19a2d","c9aecc9e-bfdd-42d2-a485-8bf183dbe8af","27a3acc7-0a8c-42f7-a78e-7be6f1540aac","c2ac0ae1-56ca-4e2b-ac57-237a15ba7b96","368c0243-0650-4653-a8b7-cdd7acb15ee8","231e1a18-f617-4621-b5bc-1ab207a25805","5aab7e8c-54c0-43bb-8159-dba018488107","d58fc5b2-cb10-4181-b5e4-64d803efeb82","51d38e77-3761-4b5f-881c-3e9618416afe","f54c580f-1561-4b80-ad0c-ad0451ca2731","179ccf1c-59bc-4ed8-b503-d4630b6fe86a","11083c4b-8600-48e9-b0f4-5548647ee6cc","b247f9ee-6b05-4bad-a0fb-bda593ae90cf","2d1bacf3-3ac9-4c0c-9114-1fc1bd745013","a5f09e97-7e8d-4411-bdd8-f466eecaf0d5","38a71b2a-d7b9-4919-92ce-1de1dcb9c6a7","d346a54d-5e42-41e9-95e4-69a97891b59a","75522d9c-f6c3-4f80-a3e9-27de1b993bc8","b8a6046e-b319-419c-84fa-ab80418aa5ef","139187f1-5812-48e5-a344-1d8b8e7e30ef","e640464f-1c9a-4f09-85a2-0710d165e890","0d51b517-9ee6-4979-ad8b-8c7c6b100760","2fa7093f-16a2-464c-98f8-45c74b11733e","e81048e7-9339-4813-8227-939964a623f1","adadceae-c62c-44b5-85fa-2f363e54502e"],"title":"Test
+    jsonData: '{"uid":"cc32cad7-ad59-4dd4-a33b-eeb8c97c630c","layout":{"serializedVersion":"2","x":-1257.4912109375,"y":-749.8557739257813,"width":3581.0,"height":893.0},"containedElements":["dab9efe3-88b2-4555-860e-ca5fd4667859","db7734f6-c15b-406d-82b9-5730f650c750","950e442d-a1bf-47ce-be91-b8fc35ea2db3","78961dcd-3be6-4cb1-8cf7-61a250696c0f","48e30a12-b8aa-4454-9ae2-eeb7de3ff107","7346e9f6-32fa-4829-a333-7770361f104c","7a8a62f1-7993-44a3-9470-555ccf7354f8","dcf70988-ef2b-486a-85b1-f7c161bdd35b","dc537f45-1730-4a52-bcf6-89df7f7aceb6","29352225-15ec-4546-b907-c0fc5e8dad90","a0afad2b-a408-469b-ae54-a155d8711d94","297b2e91-8cac-4482-9785-b2c9803424a3","5a2adf49-cbc3-43e7-ab37-a117460cd86f","57db1c69-9f55-477e-a5f9-e4c55f098770","c636b731-9ccc-4cc4-ad86-81a562c90342","3f24fddc-fd43-4a91-afa2-93825c6be8d7","6cb3ac36-7c87-4253-9955-6b92490a5ca7","82051cea-361f-4cbf-b013-f2ac9c2676b0","08be7fa6-6a79-4819-bca7-b51d626227d6","77fe7aac-7d7e-42ba-a9ab-685ecd3d3f65","f2612279-cb34-4a93-8b5a-bb06b3c8260d","f03364cf-ce18-4ccc-9e2d-bb4e73de603e","e58faf2a-fc39-47e3-bab8-c49c6b21907e","e246d302-1520-444e-b99c-dc94f9d1d488","bbe69595-b954-4182-8f72-51b224f30edd","16bcac3f-2b6a-430d-8c48-515257b0de35","62488534-15f5-4fab-a752-ac2cd9025862","2416cf8c-4200-4c32-aacf-69920f8caba4","ff567dfd-7485-4266-a4a6-39ae00f3c627","da25dcc6-b982-4270-82f8-86b91d9ace82","5c076c66-7553-4451-89fe-719d12fa63f9","da073be0-76e8-49ed-bfa0-9c5fe8bccf4c","988ea2f4-fc7b-4e27-8d2a-1c3389bc7baa","4dffffd5-fcb6-4fd1-89cd-409df9765d78","2b3e28a1-68d2-4e4b-8064-a17744fb9399","0acb5781-9ef1-46a3-a936-11e3018c0f2a","527af8c1-266f-4257-b356-d224ae111160","2b50a894-a214-4d0e-be65-a8d754b5dd88","e3ead962-1b05-42df-b168-8185a341489b","d3bf041f-cee5-4e7a-b7f2-126f4e46ca3a","f7bf0ba9-14c1-48f2-a533-d705948d41df","9f886f35-9fce-49c0-8829-1cbeb208c39b","e6d29ca1-8513-4c50-aeaf-13093a96da9f","dba9c88b-1d4d-45d4-b77b-7b95b8181514","ac2f21fa-6630-48b5-b29f-cb6082783d9b","150a41c3-cdc5-4179-90a4-422722c410a5","e81969bd-b8c0-465d-92b4-67a2f1cac33b","c3b730c5-a177-46e1-a78d-6a9b22256617","9f336354-4cea-4bc3-9dde-14775bf89a47","58fbdcc6-f630-42d7-9d55-daed09605b15","b080d511-af1c-46ff-9f25-0b1690b81c8f","48985c0d-67df-4dce-b4fa-3da9f799fe7d","46f22ebb-517d-450a-9fe4-d3f5b95aa1e0","47fefb88-343c-4a68-828a-eeabddeb688e","149cdd3e-c2d4-4d78-b3f8-ddf96ee65d11","8faaee1b-b065-4e4f-a315-fb5fbcd3adc0","9a220025-e89f-4a70-9735-08e23d1b4eef","4cca4b96-c7b4-45b6-bef3-88abe5b8d868","0e76eb7e-56e9-42ec-8ae9-2825f68f1504","cf7803c3-85cf-4b59-9f69-5a2d6aafe236","21741778-4c6e-4e3a-baff-57d6e401f228","c7de8a16-b08e-4191-a863-193eba4202a6","4e8942c4-f8b8-46b2-9c9c-a3d8069ea071","f0ee8db4-500f-46e8-ac8b-61370db1e3b0","5f2a83ff-f178-40a6-8458-2d782ad255d3","ed845839-8930-49aa-a9d7-59a9a03f87da","2deec488-a038-461f-9ed8-8879dd2530d5","43534c80-5ec2-4efb-a470-643aa77b0b55","567a3967-bf10-498e-aa24-fa091ea174d0","e9acb8e5-3b16-44cb-b057-e6a847de498e","7c510e86-d6ce-424c-a553-0e1ddd4437b4","97a14550-8dcc-43dd-af1b-150e814e5a28","7bd6dd0f-72af-4a90-9a7c-f3cc96353bfb","4db2fc62-fe1d-4ae8-b5c7-5e9bb29f1cc6","dcaf88bc-bd1b-4fd0-be4e-2baef43bd1fc","79696c42-5a97-4601-a192-0f3da4da5425","85d10fb1-63c7-4bbd-968c-53a10a56f84a","dda60824-85e7-45ef-abd1-377df8750bf8","e6099ec0-1cd4-4d3e-8a3d-ce27bdaa1b84","99669098-f243-4df0-bc59-46e210185eef","5491655f-732c-4b06-8aa5-36170f541cf8","d8726eb9-ea20-45ca-a425-084000fd1883","59353022-182c-43bc-9f5c-6cf0ecadaa81","9aa76843-c35c-40cf-b2e4-e171550de2bb","5a594ffd-fc8f-45bf-b842-b829dcc95974","807758c4-6165-4b8a-831f-56525bb0b90c","dd411cd5-ea12-4a95-aafb-72c5b6e35bb7","1225ff90-6e5b-4461-8249-e822c3081bea","05221550-cd36-424f-9e19-6d7e87145da2","667d0f4c-9a15-4bb8-baeb-7fd21a98331d","f8b39c97-ff92-4fcd-ba69-00a3bd8abed4","07e606d5-9f83-4eb8-9d38-a23f8c02252d","586a6632-cc83-4416-a39f-db583640e7ad","d736f022-860c-4572-bd69-bc3922966328","ad3d325c-80ab-4a71-a09d-a1f02512b625","90338253-6a13-4842-806e-b71a99e4ab50","2b12275c-81a7-4aea-b88c-40257c75ac25","3fe37561-d095-400a-b9b7-eb5cae203992","c2e2e20d-7390-458c-bc5c-ad7768c19a2d","c9aecc9e-bfdd-42d2-a485-8bf183dbe8af","27a3acc7-0a8c-42f7-a78e-7be6f1540aac","c2ac0ae1-56ca-4e2b-ac57-237a15ba7b96","368c0243-0650-4653-a8b7-cdd7acb15ee8","231e1a18-f617-4621-b5bc-1ab207a25805","5aab7e8c-54c0-43bb-8159-dba018488107","d58fc5b2-cb10-4181-b5e4-64d803efeb82","51d38e77-3761-4b5f-881c-3e9618416afe","f54c580f-1561-4b80-ad0c-ad0451ca2731","179ccf1c-59bc-4ed8-b503-d4630b6fe86a","11083c4b-8600-48e9-b0f4-5548647ee6cc","b247f9ee-6b05-4bad-a0fb-bda593ae90cf","2d1bacf3-3ac9-4c0c-9114-1fc1bd745013","a5f09e97-7e8d-4411-bdd8-f466eecaf0d5","38a71b2a-d7b9-4919-92ce-1de1dcb9c6a7","d346a54d-5e42-41e9-95e4-69a97891b59a","75522d9c-f6c3-4f80-a3e9-27de1b993bc8","b8a6046e-b319-419c-84fa-ab80418aa5ef","139187f1-5812-48e5-a344-1d8b8e7e30ef","e640464f-1c9a-4f09-85a2-0710d165e890","0d51b517-9ee6-4979-ad8b-8c7c6b100760","2fa7093f-16a2-464c-98f8-45c74b11733e","e81048e7-9339-4813-8227-939964a623f1","adadceae-c62c-44b5-85fa-2f363e54502e","ff9f85d8-aa48-44e3-b9d7-7ddf8ef215a5"],"title":"Test
       Line Current Position","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
     uid: ff997620-235c-4731-b772-3c8ecfe0843a
@@ -946,7 +1100,7 @@ MonoBehaviour:
     uid: 77385f87-b1fb-4b08-8c55-99811b4b4ee5
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":136.0,"width":207.0,"height":376.0}}'
   viewTransform:
-    position: {x: -617.7147, y: 1096.5256}
-    scale: 0.8695652
+    position: {x: -183.41417, y: 1317.8687}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0
