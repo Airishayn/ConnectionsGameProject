@@ -1084,7 +1084,7 @@ Material:
     - m_start_Matcap2: 0
     - m_start_Metallic: 0
     - m_start_OutlineStencil: 0
-    - m_start_RGBMask: 0
+    - m_start_RGBMask: 1
     - m_start_Refraction: 0
     - m_start_ScifiSpawnIn: 0
     - m_start_ShadowMix: 0

@@ -59,16 +59,13 @@ MonoBehaviour:
     this\r\n    Single_A: %SystemSingle, null\r\n    Single_B: %SystemSingle, null\r\n
     \   Vector3_6: %UnityEngineVector3, null\r\n    instance_D: %UnityEngineTransform,
     this\r\n    Vector3_8: %UnityEngineVector3, null\r\n    instance_F: %UnityEngineTransform,
-    this\r\n    Boolean_1D: %SystemBoolean, null\r\n    instance_10: %UnityEngineTransform,
-    this\r\n    value_8: %UnityEngineVector3, null\r\n    instance_11: %UnityEngineTransform,
-    this\r\n    value_9: %UnityEngineVector3, null\r\n    instance_12: %UnityEngineTransform,
-    this\r\n    value_A: %UnityEngineVector3, null\r\n    Boolean_1C: %SystemBoolean,
-    null\r\n    instance_13: %UnityEngineMaterial, null\r\n    value_B: %UnityEngineColor,
-    null\r\n    instance_14: %VRCUdonUdonBehaviour, this\r\n    eventName_5: %SystemString,
-    null\r\n    instance_15: %VRCUdonUdonBehaviour, this\r\n    eventName_6: %SystemString,
-    null\r\n    instance_16: %VRCUdonUdonBehaviour, this\r\n    eventName_7: %SystemString,
-    null\r\n    instance_17: %VRCUdonUdonBehaviour, this\r\n    eventName_8: %SystemString,
-    null\r\n    instance_18: %VRCUdonUdonBehaviour, this\r\n    eventName_9: %SystemString,
+    this\r\n    Boolean_1D: %SystemBoolean, null\r\n    Boolean_1C: %SystemBoolean,
+    null\r\n    instance_10: %UnityEngineMaterial, null\r\n    value_8: %UnityEngineColor,
+    null\r\n    instance_11: %VRCUdonUdonBehaviour, this\r\n    eventName_5: %SystemString,
+    null\r\n    instance_12: %VRCUdonUdonBehaviour, this\r\n    eventName_6: %SystemString,
+    null\r\n    instance_13: %VRCUdonUdonBehaviour, this\r\n    eventName_7: %SystemString,
+    null\r\n    instance_14: %VRCUdonUdonBehaviour, this\r\n    eventName_8: %SystemString,
+    null\r\n    instance_15: %VRCUdonUdonBehaviour, this\r\n    eventName_9: %SystemString,
     null\r\n    StartOn: %SystemBoolean, null\r\n    MidOn1: %SystemBoolean, null\r\n
     \   MidOn2: %SystemBoolean, null\r\n    MidOn3: %SystemBoolean, null\r\n    EndOn:
     %SystemBoolean, null\r\n    ReactionCubeColor: %UnityEngineMaterial, null\r\n
@@ -195,53 +192,41 @@ MonoBehaviour:
     \       PUSH, Boolean_12\r\n        PUSH, Boolean_13\r\n        PUSH, Boolean_11\r\n
     \       EXTERN, \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n
     \       PUSH, Boolean_11\r\n        JUMP_IF_FALSE, 0x0000085C\r\n        JUMP,
-    0x00000A4C\r\n        PUSH, LineStart\r\n        PUSH, instance_10\r\n        COPY\r\n
-    \       PUSH, instance_10\r\n        PUSH, value_8\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, LineFollow\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH,
-    instance_11\r\n        PUSH, value_9\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, LineEnd\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
-    instance_12\r\n        PUSH, value_A\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
+    0x000009C8\r\n        PUSH, Boolean_1C\r\n        PUSH, Point1\r\n        COPY\r\n
+    \       PUSH, Boolean_1C\r\n        PUSH, Point2\r\n        COPY\r\n        PUSH,
+    Boolean_1C\r\n        PUSH, Point3\r\n        COPY\r\n        PUSH, Boolean_1C\r\n
+    \       PUSH, Point4\r\n        COPY\r\n        PUSH, Boolean_1C\r\n        PUSH,
+    Point5\r\n        COPY\r\n        PUSH, ReactionCubeColor\r\n        PUSH, instance_10\r\n
+    \       COPY\r\n        PUSH, instance_10\r\n        PUSH, value_8\r\n        EXTERN,
+    \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n        PUSH,
+    Reset1\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH, instance_11\r\n
+    \       PUSH, eventName_5\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset2\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
+    instance_12\r\n        PUSH, eventName_6\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset3\r\n        PUSH, instance_13\r\n        COPY\r\n        PUSH,
+    instance_13\r\n        PUSH, eventName_7\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset4\r\n        PUSH, instance_14\r\n        COPY\r\n        PUSH,
+    instance_14\r\n        PUSH, eventName_8\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset5\r\n        PUSH, instance_15\r\n        COPY\r\n        PUSH,
+    instance_15\r\n        PUSH, eventName_9\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Correct\r\n        JUMP_IF_FALSE, 0x000009E0\r\n        JUMP, 0x00000B4C\r\n
     \       PUSH, Boolean_1C\r\n        PUSH, Point1\r\n        COPY\r\n        PUSH,
     Boolean_1C\r\n        PUSH, Point2\r\n        COPY\r\n        PUSH, Boolean_1C\r\n
     \       PUSH, Point3\r\n        COPY\r\n        PUSH, Boolean_1C\r\n        PUSH,
     Point4\r\n        COPY\r\n        PUSH, Boolean_1C\r\n        PUSH, Point5\r\n
-    \       COPY\r\n        PUSH, ReactionCubeColor\r\n        PUSH, instance_13\r\n
-    \       COPY\r\n        PUSH, instance_13\r\n        PUSH, value_B\r\n        EXTERN,
+    \       COPY\r\n        PUSH, ReactionCubeColor\r\n        PUSH, instance_10\r\n
+    \       COPY\r\n        PUSH, instance_10\r\n        PUSH, value_8\r\n        EXTERN,
     \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n        PUSH,
-    Reset1\r\n        PUSH, instance_14\r\n        COPY\r\n        PUSH, instance_14\r\n
+    Reset1\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH, instance_11\r\n
     \       PUSH, eventName_5\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset2\r\n        PUSH, instance_15\r\n        COPY\r\n        PUSH,
-    instance_15\r\n        PUSH, eventName_6\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset3\r\n        PUSH, instance_16\r\n        COPY\r\n        PUSH,
-    instance_16\r\n        PUSH, eventName_7\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset4\r\n        PUSH, instance_17\r\n        COPY\r\n        PUSH,
-    instance_17\r\n        PUSH, eventName_8\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset5\r\n        PUSH, instance_18\r\n        COPY\r\n        PUSH,
-    instance_18\r\n        PUSH, eventName_9\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Correct\r\n        JUMP_IF_FALSE, 0x00000A64\r\n        JUMP, 0x00000C54\r\n
-    \       PUSH, LineStart\r\n        PUSH, instance_10\r\n        COPY\r\n        PUSH,
-    instance_10\r\n        PUSH, value_8\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, LineFollow\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH,
-    instance_11\r\n        PUSH, value_9\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, LineEnd\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
-    instance_12\r\n        PUSH, value_A\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
-    \       PUSH, Boolean_1C\r\n        PUSH, Point1\r\n        COPY\r\n        PUSH,
-    Boolean_1C\r\n        PUSH, Point2\r\n        COPY\r\n        PUSH, Boolean_1C\r\n
-    \       PUSH, Point3\r\n        COPY\r\n        PUSH, Boolean_1C\r\n        PUSH,
-    Point4\r\n        COPY\r\n        PUSH, Boolean_1C\r\n        PUSH, Point5\r\n
-    \       COPY\r\n        PUSH, ReactionCubeColor\r\n        PUSH, instance_13\r\n
-    \       COPY\r\n        PUSH, instance_13\r\n        PUSH, value_B\r\n        EXTERN,
-    \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n        PUSH,
-    Reset1\r\n        PUSH, instance_14\r\n        COPY\r\n        PUSH, instance_14\r\n
-    \       PUSH, eventName_5\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset2\r\n        PUSH, instance_15\r\n        COPY\r\n        PUSH,
-    instance_15\r\n        PUSH, eventName_6\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset3\r\n        PUSH, instance_16\r\n        COPY\r\n        PUSH,
-    instance_16\r\n        PUSH, eventName_7\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset4\r\n        PUSH, instance_17\r\n        COPY\r\n        PUSH,
-    instance_17\r\n        PUSH, eventName_8\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       PUSH, Reset5\r\n        PUSH, instance_18\r\n        COPY\r\n        PUSH,
-    instance_18\r\n        PUSH, eventName_9\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset2\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
+    instance_12\r\n        PUSH, eventName_6\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset3\r\n        PUSH, instance_13\r\n        COPY\r\n        PUSH,
+    instance_13\r\n        PUSH, eventName_7\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset4\r\n        PUSH, instance_14\r\n        COPY\r\n        PUSH,
+    instance_14\r\n        PUSH, eventName_8\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, Reset5\r\n        PUSH, instance_15\r\n        COPY\r\n        PUSH,
+    instance_15\r\n        PUSH, eventName_9\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -1458,7 +1443,7 @@ MonoBehaviour:
       - 2563b1da-2f1c-4614-a65e-9aac47945506|0
       flowUIDs:
       - 
-      - 80be62b9-b641-4376-98ec-c60f19ad2865
+      - c2d9b169-b8cd-4c1f-8324-dcf22a7e6028
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
@@ -1475,7 +1460,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Variable_UnityEngineTransform
       uid: f03f3b19-b638-4fb9-8f82-6bf37dbc8c96
-      position: {x: -2807.5913, y: -440.8542}
+      position: {x: -9544.152, y: -2662.6458}
       nodeUIDs:
       - 
       - 
@@ -1496,7 +1481,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_UnityEngineTransform
       uid: 9c100f49-4137-4a8d-801d-857f9d68a891
-      position: {x: -3112.8914, y: -567.1467}
+      position: {x: -9849.453, y: -2788.9382}
       nodeUIDs:
       - 
       - 
@@ -1517,7 +1502,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 51b51e8b-b63b-4a09-9e33-a1a23252be1d
-      position: {x: 3428.5132, y: 519.66077}
+      position: {x: 3396.1309, y: 1012.3427}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1528,7 +1513,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: 6c584efa-508a-4065-ae97-4fcd57be5d49
-      position: {x: 3080.3064, y: 495.91528}
+      position: {x: 3047.924, y: 988.5973}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1539,7 +1524,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid
       uid: 80be62b9-b641-4376-98ec-c60f19ad2865
-      position: {x: 3110.7556, y: 740.51215}
+      position: {x: 3078.3733, y: 1233.1942}
       nodeUIDs:
       - 6c584efa-508a-4065-ae97-4fcd57be5d49|0
       - 
@@ -1553,7 +1538,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
     - fullName: UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid
       uid: df9748b2-39d2-47e6-99fb-2164876ed44a
-      position: {x: 3405.8828, y: 641.233}
+      position: {x: 3373.5005, y: 1133.9149}
       nodeUIDs:
       - 51b51e8b-b63b-4a09-9e33-a1a23252be1d|0
       - 
@@ -1567,7 +1552,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
     - fullName: Variable_UnityEngineTransform
       uid: ac11b54b-b703-4383-b987-e4250045bc7f
-      position: {x: 0, y: 0}
+      position: {x: -6736.5615, y: -2221.7915}
       nodeUIDs:
       - 
       - 
@@ -1588,7 +1573,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid
       uid: b56f4d98-de62-4379-8a09-03570944f9ea
-      position: {x: 3711.6895, y: 692.31805}
+      position: {x: 3679.3071, y: 1185.0001}
       nodeUIDs:
       - 4f5e980d-164a-4e54-88ab-cf4a079a30e3
       - 
@@ -1602,7 +1587,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
     - fullName: Get_Variable
       uid: 4f5e980d-164a-4e54-88ab-cf4a079a30e3
-      position: {x: 3721.0198, y: 536.1655}
+      position: {x: 3688.6375, y: 1028.8475}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1994,7 +1979,7 @@ MonoBehaviour:
       - 51593a9a-1136-4de0-b987-d0149c763d82
       flowUIDs:
       - 
-      - 80be62b9-b641-4376-98ec-c60f19ad2865
+      - c2d9b169-b8cd-4c1f-8324-dcf22a7e6028
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
@@ -2318,9 +2303,9 @@ MonoBehaviour:
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":136.0,"width":207.0,"height":376.0}}'
   - type: 2
     uid: 10fecee3-f30e-4d72-82a1-2bd082ff8667
-    jsonData: '{"uid":"10fecee3-f30e-4d72-82a1-2bd082ff8667","layout":{"serializedVersion":"2","x":2596.865234375,"y":225.78225708007813,"width":3505.0,"height":1051.0},"containedElements":["c2d9b169-b8cd-4c1f-8324-dcf22a7e6028","266e88a3-6155-4310-bdf8-d6e66c081b44","d7ff0f56-18db-401f-accb-dd9463b20514","81ca52d9-82df-4c69-8530-63043235ed85","4eef94ff-39f2-4d2e-b261-d7786c627fb4","df351738-328d-4aff-87f5-d323c9424d49","5e79d9d4-4d6a-4a30-9645-b0a54c4e228e","41381509-60fd-4d72-93eb-1bfd7b80b6a0","989a2a4a-0cce-4b08-b1ad-f1abbd0bc622","508769f2-6392-46e2-802e-73b0d09358c4","123639f2-5b35-441b-b46d-c5c8f5cb1ede","63f441b8-ea1a-4670-bb4a-d6523dfded5b","9402042e-8962-4d5d-9b4a-8418794e6abd","25c66d59-0d0b-4c4b-b20c-2fd4a21a5caa","0d2be6e2-1d7f-4db6-bc26-eeedc04888af","e89b979c-fcdb-40dc-81a1-7e3fb208ccb9","de95888b-0c4e-4dd4-a0a3-2fcb191720a3","fe50bdee-7945-4e0f-a3f6-f6bd04b1e738","80be62b9-b641-4376-98ec-c60f19ad2865","df9748b2-39d2-47e6-99fb-2164876ed44a","6c584efa-508a-4065-ae97-4fcd57be5d49","51b51e8b-b63b-4a09-9e33-a1a23252be1d","b56f4d98-de62-4379-8a09-03570944f9ea","4f5e980d-164a-4e54-88ab-cf4a079a30e3","b43ce3c3-e540-4633-a5d1-1d52b26632c8","e4ca84a2-4e0d-4a78-901f-2acf8c61816d","1d0ee8be-f8a5-4227-86cb-ecc316fe33fe","0dcfb624-5c1b-46f2-867e-e3e56628044f","539d6f2a-4ea9-4079-b14b-cf38cc0eda5b","4c63c49a-c7e8-48bb-b88e-2da9e750e2a5","2563b1da-2f1c-4614-a65e-9aac47945506"],"title":"Reset","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+    jsonData: '{"uid":"10fecee3-f30e-4d72-82a1-2bd082ff8667","layout":{"serializedVersion":"2","x":2596.865478515625,"y":225.78228759765626,"width":3505.0,"height":1165.0},"containedElements":["c2d9b169-b8cd-4c1f-8324-dcf22a7e6028","266e88a3-6155-4310-bdf8-d6e66c081b44","d7ff0f56-18db-401f-accb-dd9463b20514","81ca52d9-82df-4c69-8530-63043235ed85","4eef94ff-39f2-4d2e-b261-d7786c627fb4","df351738-328d-4aff-87f5-d323c9424d49","5e79d9d4-4d6a-4a30-9645-b0a54c4e228e","41381509-60fd-4d72-93eb-1bfd7b80b6a0","989a2a4a-0cce-4b08-b1ad-f1abbd0bc622","508769f2-6392-46e2-802e-73b0d09358c4","123639f2-5b35-441b-b46d-c5c8f5cb1ede","63f441b8-ea1a-4670-bb4a-d6523dfded5b","9402042e-8962-4d5d-9b4a-8418794e6abd","25c66d59-0d0b-4c4b-b20c-2fd4a21a5caa","0d2be6e2-1d7f-4db6-bc26-eeedc04888af","e89b979c-fcdb-40dc-81a1-7e3fb208ccb9","de95888b-0c4e-4dd4-a0a3-2fcb191720a3","fe50bdee-7945-4e0f-a3f6-f6bd04b1e738","80be62b9-b641-4376-98ec-c60f19ad2865","df9748b2-39d2-47e6-99fb-2164876ed44a","6c584efa-508a-4065-ae97-4fcd57be5d49","51b51e8b-b63b-4a09-9e33-a1a23252be1d","b56f4d98-de62-4379-8a09-03570944f9ea","4f5e980d-164a-4e54-88ab-cf4a079a30e3","b43ce3c3-e540-4633-a5d1-1d52b26632c8","e4ca84a2-4e0d-4a78-901f-2acf8c61816d","1d0ee8be-f8a5-4227-86cb-ecc316fe33fe","0dcfb624-5c1b-46f2-867e-e3e56628044f","539d6f2a-4ea9-4079-b14b-cf38cc0eda5b","4c63c49a-c7e8-48bb-b88e-2da9e750e2a5","2563b1da-2f1c-4614-a65e-9aac47945506","6e2108cf-0418-4f10-a7ab-cb680967e653","2a953c5e-c9be-4007-8f48-6936998581f6","a13f208e-e2dc-414e-9960-d000237a2c18","79129914-263f-44fe-9db0-061095f6b25a","8ec16707-1773-45c1-a7d1-e81e1bb463d4"],"title":"Reset","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -1025.7183, y: -823.5312}
-    scale: 0.65751624
+    position: {x: -1204.9644, y: 278.361}
+    scale: 0.43232757
   version: 1.0.0
   showAssembly: 0
