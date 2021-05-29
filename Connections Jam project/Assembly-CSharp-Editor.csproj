@@ -120,6 +120,7 @@
      <Compile Include="Assets\VRCSDK\SDK3\Editor\Components3\VRCSceneDescriptorEditor3.cs" />
      <Compile Include="Assets\VRCSDK\SDK3\Editor\VRCMidiWindow.cs" />
      <Compile Include="Assets\VRCSDK\SDK3\Editor\VRCSdkControlPanelWorldBuilder3.cs" />
+     <Compile Include="Assets\VRWaterShader2\Editor\VRWS2Inspector.cs" />
  <Reference Include="Cinemachine">
  <HintPath>D:/Unity Projects/Connections Game Project/Connections Jam project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>

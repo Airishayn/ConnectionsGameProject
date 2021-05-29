@@ -2354,7 +2354,7 @@ MonoBehaviour:
     uid: 10fecee3-f30e-4d72-82a1-2bd082ff8667
     jsonData: '{"uid":"10fecee3-f30e-4d72-82a1-2bd082ff8667","layout":{"serializedVersion":"2","x":2596.865478515625,"y":225.78228759765626,"width":3505.0,"height":1165.0},"containedElements":["c2d9b169-b8cd-4c1f-8324-dcf22a7e6028","266e88a3-6155-4310-bdf8-d6e66c081b44","d7ff0f56-18db-401f-accb-dd9463b20514","81ca52d9-82df-4c69-8530-63043235ed85","4eef94ff-39f2-4d2e-b261-d7786c627fb4","df351738-328d-4aff-87f5-d323c9424d49","5e79d9d4-4d6a-4a30-9645-b0a54c4e228e","41381509-60fd-4d72-93eb-1bfd7b80b6a0","989a2a4a-0cce-4b08-b1ad-f1abbd0bc622","508769f2-6392-46e2-802e-73b0d09358c4","123639f2-5b35-441b-b46d-c5c8f5cb1ede","63f441b8-ea1a-4670-bb4a-d6523dfded5b","9402042e-8962-4d5d-9b4a-8418794e6abd","25c66d59-0d0b-4c4b-b20c-2fd4a21a5caa","0d2be6e2-1d7f-4db6-bc26-eeedc04888af","e89b979c-fcdb-40dc-81a1-7e3fb208ccb9","de95888b-0c4e-4dd4-a0a3-2fcb191720a3","fe50bdee-7945-4e0f-a3f6-f6bd04b1e738","80be62b9-b641-4376-98ec-c60f19ad2865","df9748b2-39d2-47e6-99fb-2164876ed44a","6c584efa-508a-4065-ae97-4fcd57be5d49","51b51e8b-b63b-4a09-9e33-a1a23252be1d","b56f4d98-de62-4379-8a09-03570944f9ea","4f5e980d-164a-4e54-88ab-cf4a079a30e3","b43ce3c3-e540-4633-a5d1-1d52b26632c8","e4ca84a2-4e0d-4a78-901f-2acf8c61816d","1d0ee8be-f8a5-4227-86cb-ecc316fe33fe","0dcfb624-5c1b-46f2-867e-e3e56628044f","539d6f2a-4ea9-4079-b14b-cf38cc0eda5b","4c63c49a-c7e8-48bb-b88e-2da9e750e2a5","2563b1da-2f1c-4614-a65e-9aac47945506","6e2108cf-0418-4f10-a7ab-cb680967e653","2a953c5e-c9be-4007-8f48-6936998581f6","a13f208e-e2dc-414e-9960-d000237a2c18","79129914-263f-44fe-9db0-061095f6b25a","8ec16707-1773-45c1-a7d1-e81e1bb463d4"],"title":"Reset","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -637.85803, y: -1093.5128}
-    scale: 0.8695652
+    position: {x: -1568.9142, y: -455.701}
+    scale: 0.49717674
   version: 1.0.0
   showAssembly: 0
