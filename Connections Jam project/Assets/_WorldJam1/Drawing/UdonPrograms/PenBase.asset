@@ -19,64 +19,66 @@ MonoBehaviour:
     \   .export LineFollowPosition\r\n    .export LineEndPosition\r\n    .export isdrawing\r\n
     \   .export ClearDebug\r\n    .export LineClearPoint\r\n    .export Line1\r\n
     \   .export PenMaterial\r\n    .export LineStart\r\n    .export LineFollow\r\n
-    \   .export LineEnd\r\n    .export CubeLogicTest\r\n    .sync nextLineIndex, none\r\n
-    \   \r\n    instance_1: %UnityEngineLineRenderer, null\r\n    type_0: %SystemType,
-    null\r\n    Type_0: %SystemType, null\r\n    player_0: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    obj_0: %UnityEngineGameObject, this\r\n    instance_3: %UnityEngineGameObject,
-    this\r\n    value_0: %SystemBoolean, null\r\n    instance_2: %UnityEngineLineRenderer,
-    null\r\n    instance_0: %UnityEngineLineRendererArray, null\r\n    Int32_0: %SystemInt32,
-    null\r\n    Boolean_0: %SystemBoolean, null\r\n    Int32_1: %SystemInt32, null\r\n
-    \   Int32_2: %SystemInt32, null\r\n    instance_4: %UnityEngineLineRendererArray,
-    null\r\n    Int32_5: %SystemInt32, null\r\n    instance_5: %UnityEngineMaterial,
-    null\r\n    value_1: %UnityEngineColor, null\r\n    Int32_3: %SystemInt32, null\r\n
-    \   Int32_4: %SystemInt32, null\r\n    instance_6: %UnityEngineMaterial, null\r\n
-    \   value_2: %UnityEngineColor, null\r\n    Boolean_1: %SystemBoolean, null\r\n
-    \   instance_7: %UnityEngineLineRenderer, null\r\n    value_3: %SystemInt32, null\r\n
-    \   instance_8: %UnityEngineTransform, this\r\n    Int32_6: %SystemInt32, null\r\n
-    \   index_0: %SystemInt32, null\r\n    condition_0: %SystemBoolean, null\r\n    instance_9:
-    %UnityEngineLineRenderer, null\r\n    index_1: %SystemInt32, null\r\n    position_0:
-    %UnityEngineVector3, null\r\n    start_0: %SystemInt32, null\r\n    end_0: %SystemInt32,
-    null\r\n    step_0: %SystemInt32, null\r\n    instance_A: %UnityEngineTransform,
-    this\r\n    instance_B: %UnityEngineTransform, this\r\n    value_4: %UnityEngineVector3,
-    null\r\n    instance_C: %UnityEngineMaterial, null\r\n    value_5: %UnityEngineColor,
-    null\r\n    Boolean_2: %SystemBoolean, null\r\n    instance_D: %UnityEngineTransform,
-    this\r\n    value_6: %UnityEngineVector3, null\r\n    instance_E: %UnityEngineTransform,
-    this\r\n    instance_F: %UnityEngineMaterial, null\r\n    value_7: %UnityEngineColor,
-    null\r\n    instance_10: %VRCUdonUdonBehaviour, this\r\n    eventName_0: %SystemString,
-    null\r\n    instance_11: %VRCUdonUdonBehaviour, this\r\n    eventName_1: %SystemString,
-    null\r\n    Boolean_3: %SystemBoolean, null\r\n    Boolean_4: %SystemBoolean,
-    null\r\n    Single_0: %SystemSingle, null\r\n    Single_1: %SystemSingle, null\r\n
-    \   a_0: %UnityEngineVector3, null\r\n    b_0: %UnityEngineVector3, null\r\n    instance_12:
-    %UnityEngineTransform, this\r\n    instance_13: %UnityEngineLineRenderer, null\r\n
-    \   value_8: %SystemInt32, null\r\n    Int32_7: %SystemInt32, null\r\n    Int32_8:
-    %SystemInt32, null\r\n    instance_14: %UnityEngineLineRenderer, null\r\n    index_2:
-    %SystemInt32, null\r\n    position_1: %UnityEngineVector3, null\r\n    instance_15:
-    %UnityEngineTransform, this\r\n    Boolean_5: %SystemBoolean, null\r\n    Int32_B:
-    %SystemInt32, null\r\n    Int32_C: %SystemInt32, null\r\n    Int32_D: %SystemInt32,
-    null\r\n    Int32_E: %SystemInt32, null\r\n    Int32_9: %SystemInt32, null\r\n
-    \   Int32_A: %SystemInt32, null\r\n    instance_16: %VRCUdonUdonBehaviour, this\r\n
-    \   eventName_2: %SystemString, null\r\n    instance_17: %UnityEngineTransform,
-    this\r\n    value_9: %UnityEngineVector3, null\r\n    Boolean_6: %SystemBoolean,
-    null\r\n    instance_18: %UnityEngineTransform, this\r\n    type_1: %SystemType,
-    null\r\n    Type_1: %SystemType, null\r\n    instance_19: %UnityEngineMaterial,
-    null\r\n    value_A: %UnityEngineColor, null\r\n    line: %VRCUdonUdonBehaviour,
-    this\r\n    isDrawing: %SystemBoolean, null\r\n    startPosition: %UnityEngineVector3,
-    null\r\n    minMoveDistance: %SystemSingle, null\r\n    points: %UnityEngineVector3Array,
-    null\r\n    lineRenderer: %UnityEngineLineRenderer, null\r\n    penTip: %UnityEngineTransform,
-    this\r\n    currentIndex: %SystemInt32, null\r\n    __returnValue: %SystemObject,
-    null\r\n    pointsPerUpdate: %SystemInt32, null\r\n    linesContainer: %UnityEngineTransform,
-    this\r\n    nextLineIndex: %SystemInt32, null\r\n    pool: %UnityEngineGameObjectArray,
-    null\r\n    linePool: %UnityEngineLineRendererArray, null\r\n    LineStartPosition:
-    %UnityEngineTransform, this\r\n    LineFollowPosition: %UnityEngineTransform,
-    this\r\n    LineEndPosition: %UnityEngineTransform, this\r\n    isdrawing: %UnityEngineMaterial,
-    null\r\n    ClearDebug: %UnityEngineMaterial, null\r\n    ClearSpot: %UnityEngineTransform,
-    this\r\n    LineClearPoint: %UnityEngineLineRenderer, null\r\n    ClearReady:
-    %SystemBoolean, null\r\n    Line1: %UnityEngineLineRenderer, null\r\n    Line2:
-    %UnityEngineLineRenderer, null\r\n    Line3: %UnityEngineLineRenderer, null\r\n
-    \   Line4: %UnityEngineLineRenderer, null\r\n    Line5: %UnityEngineLineRenderer,
-    null\r\n    PenMaterial: %UnityEngineMaterial, null\r\n    LineStart: %UnityEngineTransform,
-    this\r\n    LineFollow: %UnityEngineTransform, this\r\n    LineEnd: %UnityEngineTransform,
-    this\r\n    CubeLogicTest: %VRCUdonUdonBehaviour, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
+    \   .export LineEnd\r\n    .export CubeLogicTest\r\n    .export Sparks\r\n    .export
+    Sparks_1\r\n    .sync nextLineIndex, none\r\n    \r\n    instance_1: %UnityEngineLineRenderer,
+    null\r\n    type_0: %SystemType, null\r\n    Type_0: %SystemType, null\r\n    player_0:
+    %VRCSDKBaseVRCPlayerApi, null\r\n    obj_0: %UnityEngineGameObject, this\r\n    instance_3:
+    %UnityEngineGameObject, this\r\n    value_0: %SystemBoolean, null\r\n    instance_2:
+    %UnityEngineLineRenderer, null\r\n    instance_0: %UnityEngineLineRendererArray,
+    null\r\n    Int32_0: %SystemInt32, null\r\n    Boolean_0: %SystemBoolean, null\r\n
+    \   Int32_1: %SystemInt32, null\r\n    Int32_2: %SystemInt32, null\r\n    instance_4:
+    %UnityEngineLineRendererArray, null\r\n    Int32_5: %SystemInt32, null\r\n    instance_5:
+    %UnityEngineMaterial, null\r\n    value_1: %UnityEngineColor, null\r\n    Int32_3:
+    %SystemInt32, null\r\n    Int32_4: %SystemInt32, null\r\n    instance_6: %UnityEngineMaterial,
+    null\r\n    value_2: %UnityEngineColor, null\r\n    Boolean_1: %SystemBoolean,
+    null\r\n    instance_7: %UnityEngineLineRenderer, null\r\n    value_3: %SystemInt32,
+    null\r\n    instance_8: %UnityEngineTransform, this\r\n    Int32_6: %SystemInt32,
+    null\r\n    index_0: %SystemInt32, null\r\n    condition_0: %SystemBoolean, null\r\n
+    \   instance_9: %UnityEngineLineRenderer, null\r\n    index_1: %SystemInt32, null\r\n
+    \   position_0: %UnityEngineVector3, null\r\n    start_0: %SystemInt32, null\r\n
+    \   end_0: %SystemInt32, null\r\n    step_0: %SystemInt32, null\r\n    instance_A:
+    %UnityEngineTransform, this\r\n    instance_B: %UnityEngineTransform, this\r\n
+    \   value_4: %UnityEngineVector3, null\r\n    instance_C: %UnityEngineMaterial,
+    null\r\n    value_5: %UnityEngineColor, null\r\n    Boolean_2: %SystemBoolean,
+    null\r\n    instance_D: %UnityEngineTransform, this\r\n    value_6: %UnityEngineVector3,
+    null\r\n    instance_E: %UnityEngineTransform, this\r\n    instance_F: %UnityEngineMaterial,
+    null\r\n    value_7: %UnityEngineColor, null\r\n    instance_10: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_0: %SystemString, null\r\n    instance_11: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_1: %SystemString, null\r\n    Boolean_3: %SystemBoolean,
+    null\r\n    Boolean_4: %SystemBoolean, null\r\n    Single_0: %SystemSingle, null\r\n
+    \   Single_1: %SystemSingle, null\r\n    a_0: %UnityEngineVector3, null\r\n    b_0:
+    %UnityEngineVector3, null\r\n    instance_12: %UnityEngineTransform, this\r\n
+    \   instance_13: %UnityEngineLineRenderer, null\r\n    value_8: %SystemInt32,
+    null\r\n    Int32_7: %SystemInt32, null\r\n    Int32_8: %SystemInt32, null\r\n
+    \   instance_14: %UnityEngineLineRenderer, null\r\n    index_2: %SystemInt32,
+    null\r\n    position_1: %UnityEngineVector3, null\r\n    instance_15: %UnityEngineTransform,
+    this\r\n    Boolean_5: %SystemBoolean, null\r\n    Int32_B: %SystemInt32, null\r\n
+    \   Int32_C: %SystemInt32, null\r\n    Int32_D: %SystemInt32, null\r\n    Int32_E:
+    %SystemInt32, null\r\n    Int32_9: %SystemInt32, null\r\n    Int32_A: %SystemInt32,
+    null\r\n    instance_16: %VRCUdonUdonBehaviour, this\r\n    eventName_2: %SystemString,
+    null\r\n    instance_17: %UnityEngineTransform, this\r\n    value_9: %UnityEngineVector3,
+    null\r\n    Boolean_6: %SystemBoolean, null\r\n    instance_18: %UnityEngineTransform,
+    this\r\n    type_1: %SystemType, null\r\n    Type_1: %SystemType, null\r\n    instance_19:
+    %UnityEngineMaterial, null\r\n    value_A: %UnityEngineColor, null\r\n    line:
+    %VRCUdonUdonBehaviour, this\r\n    isDrawing: %SystemBoolean, null\r\n    startPosition:
+    %UnityEngineVector3, null\r\n    minMoveDistance: %SystemSingle, null\r\n    points:
+    %UnityEngineVector3Array, null\r\n    lineRenderer: %UnityEngineLineRenderer,
+    null\r\n    penTip: %UnityEngineTransform, this\r\n    currentIndex: %SystemInt32,
+    null\r\n    __returnValue: %SystemObject, null\r\n    pointsPerUpdate: %SystemInt32,
+    null\r\n    linesContainer: %UnityEngineTransform, this\r\n    nextLineIndex:
+    %SystemInt32, null\r\n    pool: %UnityEngineGameObjectArray, null\r\n    linePool:
+    %UnityEngineLineRendererArray, null\r\n    LineStartPosition: %UnityEngineTransform,
+    this\r\n    LineFollowPosition: %UnityEngineTransform, this\r\n    LineEndPosition:
+    %UnityEngineTransform, this\r\n    isdrawing: %UnityEngineMaterial, null\r\n    ClearDebug:
+    %UnityEngineMaterial, null\r\n    ClearSpot: %UnityEngineTransform, this\r\n    LineClearPoint:
+    %UnityEngineLineRenderer, null\r\n    ClearReady: %SystemBoolean, null\r\n    Line1:
+    %UnityEngineLineRenderer, null\r\n    Line2: %UnityEngineLineRenderer, null\r\n
+    \   Line3: %UnityEngineLineRenderer, null\r\n    Line4: %UnityEngineLineRenderer,
+    null\r\n    Line5: %UnityEngineLineRenderer, null\r\n    PenMaterial: %UnityEngineMaterial,
+    null\r\n    LineStart: %UnityEngineTransform, this\r\n    LineFollow: %UnityEngineTransform,
+    this\r\n    LineEnd: %UnityEngineTransform, this\r\n    CubeLogicTest: %VRCUdonUdonBehaviour,
+    this\r\n    Sparks: %UnityEngineGameObject, this\r\n    newVariable: %SystemObject,
+    null\r\n    Sparks_1: %UnityEngineGameObject, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
     \   .export _onPickupUseDown\r\n    \r\n    _onPickupUseDown:\r\n    \r\n        PUSH,
     linePool\r\n        PUSH, instance_0\r\n        COPY\r\n        PUSH, instance_0\r\n
     \       PUSH, nextLineIndex\r\n        PUSH, lineRenderer\r\n        EXTERN, \"UnityEngineLineRendererArray.__Get__SystemInt32__UnityEngineLineRenderer\"\r\n
@@ -837,7 +839,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Variable_SystemObject
       uid: 158ef9f2-20cb-44fe-b75d-49543180c9d2
-      position: {x: -975, y: -2615}
+      position: {x: 1075, y: -2580}
       nodeUIDs:
       - 
       - 
@@ -1943,6 +1945,80 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|4e4f993e-7483-4ca5-9783-b0e0ccc05997
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: Variable_UnityEngineGameObject
+      uid: f3b0d1ce-624c-4b96-a3c3-9e8de4b77bb0
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Sparks
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_SystemObject
+      uid: 2dc62c9e-d67e-4b2e-9739-538d59cbe296
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|newVariable
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineGameObject
+      uid: b11306da-48f8-408b-885e-bd678a73ac3c
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Sparks_1
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 4ddad5f2-1f3f-4e4d-b0b4-b8246911999b
+      position: {x: 766.1326, y: 1477.4441}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|b11306da-48f8-408b-885e-bd678a73ac3c
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
     updateOrder: 0
   graphElementData:
   - type: 2
@@ -2024,7 +2100,7 @@ MonoBehaviour:
     uid: 01c43875-37be-448a-b344-ea807cb12580
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":6.0,"y":103.0,"width":273.0,"height":544.0}}'
   viewTransform:
-    position: {x: 193.59357, y: 154.25166}
-    scale: 0.2
+    position: {x: -408.0525, y: -1228.0607}
+    scale: 1.15
   version: 1.0.0
   showAssembly: 0

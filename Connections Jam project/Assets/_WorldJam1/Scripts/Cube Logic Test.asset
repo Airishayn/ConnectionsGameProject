@@ -17,22 +17,26 @@ MonoBehaviour:
   udonAssembly: ".data_start\r\n\r\n    .export SetCheck2\r\n    .export EndDrop2\r\n
     \   .export LineStart\r\n    .export LineFollow\r\n    .export LineEnd\r\n    .export
     Setcheck3\r\n    .export EndDrop3\r\n    .export Setcheck\r\n    .export EndDrop\r\n
-    \   \r\n    instance_0: %VRCUdonUdonBehaviour, this\r\n    eventName_0: %SystemString,
-    null\r\n    instance_1: %VRCUdonUdonBehaviour, this\r\n    eventName_1: %SystemString,
-    null\r\n    instance_2: %VRCUdonUdonBehaviour, this\r\n    eventName_2: %SystemString,
-    null\r\n    instance_3: %VRCUdonUdonBehaviour, this\r\n    eventName_3: %SystemString,
-    null\r\n    instance_4: %VRCUdonUdonBehaviour, this\r\n    eventName_4: %SystemString,
-    null\r\n    instance_5: %VRCUdonUdonBehaviour, this\r\n    eventName_5: %SystemString,
-    null\r\n    instance_6: %UnityEngineTransform, this\r\n    value_0: %UnityEngineVector3,
-    null\r\n    instance_7: %UnityEngineTransform, this\r\n    value_1: %UnityEngineVector3,
-    null\r\n    SetCheck2: %VRCUdonUdonBehaviour, this\r\n    EndDrop2: %VRCUdonUdonBehaviour,
-    this\r\n    LineStart: %UnityEngineTransform, this\r\n    LineFollow: %UnityEngineTransform,
-    this\r\n    LineEnd: %UnityEngineTransform, this\r\n    Setcheck3: %VRCUdonUdonBehaviour,
-    this\r\n    EndDrop3: %VRCUdonUdonBehaviour, this\r\n    Setcheck: %VRCUdonUdonBehaviour,
-    this\r\n    EndDrop: %VRCUdonUdonBehaviour, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
-    \   .export CubeTest\r\n    \r\n    CubeTest:\r\n    \r\n        PUSH, Setcheck\r\n
-    \       PUSH, instance_0\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH,
-    eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \   .export Setcheck4\r\n    .export EndDrop4\r\n    \r\n    instance_0: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_0: %SystemString, null\r\n    instance_1: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_1: %SystemString, null\r\n    instance_2: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_2: %SystemString, null\r\n    instance_3: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_3: %SystemString, null\r\n    instance_4: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_4: %SystemString, null\r\n    instance_5: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_5: %SystemString, null\r\n    instance_6: %UnityEngineTransform,
+    this\r\n    value_0: %UnityEngineVector3, null\r\n    instance_7: %UnityEngineTransform,
+    this\r\n    value_1: %UnityEngineVector3, null\r\n    instance_8: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_6: %SystemString, null\r\n    instance_9: %VRCUdonUdonBehaviour,
+    this\r\n    eventName_7: %SystemString, null\r\n    SetCheck2: %VRCUdonUdonBehaviour,
+    this\r\n    EndDrop2: %VRCUdonUdonBehaviour, this\r\n    LineStart: %UnityEngineTransform,
+    this\r\n    LineFollow: %UnityEngineTransform, this\r\n    LineEnd: %UnityEngineTransform,
+    this\r\n    Setcheck3: %VRCUdonUdonBehaviour, this\r\n    EndDrop3: %VRCUdonUdonBehaviour,
+    this\r\n    Setcheck: %VRCUdonUdonBehaviour, this\r\n    EndDrop: %VRCUdonUdonBehaviour,
+    this\r\n    Setcheck4: %VRCUdonUdonBehaviour, this\r\n    EndDrop4: %VRCUdonUdonBehaviour,
+    this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export CubeTest\r\n    \r\n
+    \   CubeTest:\r\n    \r\n        PUSH, Setcheck\r\n        PUSH, instance_0\r\n
+    \       COPY\r\n        PUSH, instance_0\r\n        PUSH, eventName_0\r\n        EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
     \       PUSH, EndDrop\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
     instance_1\r\n        PUSH, eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
     \       PUSH, SetCheck2\r\n        PUSH, instance_2\r\n        COPY\r\n        PUSH,
@@ -47,6 +51,10 @@ MonoBehaviour:
     instance_6\r\n        PUSH, value_0\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
     \       PUSH, LineFollow\r\n        PUSH, instance_7\r\n        COPY\r\n        PUSH,
     instance_7\r\n        PUSH, value_1\r\n        EXTERN, \"UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid\"\r\n
+    \       PUSH, Setcheck4\r\n        PUSH, instance_8\r\n        COPY\r\n        PUSH,
+    instance_8\r\n        PUSH, eventName_6\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
+    \       PUSH, EndDrop4\r\n        PUSH, instance_9\r\n        COPY\r\n        PUSH,
+    instance_9\r\n        PUSH, eventName_7\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -55,7 +63,7 @@ MonoBehaviour:
     nodes:
     - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
       uid: c9b606e3-b04e-46ce-96ea-5b163f932617
-      position: {x: -18802.236, y: -3403.8618}
+      position: {x: -18817.129, y: -3710.209}
       nodeUIDs:
       - 
       - 
@@ -76,7 +84,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
       uid: cb935500-a07e-487f-ab41-934f1aa747cb
-      position: {x: -18802.236, y: -3403.8618}
+      position: {x: -18817.129, y: -3710.209}
       nodeUIDs:
       - 
       - 
@@ -468,6 +476,7 @@ MonoBehaviour:
       - 4209d513-5d21-4dfc-a2bf-7cb6d10d6fe4
       - 83464cb8-93d0-439b-a472-038951bb4016
       - 5db1f7cf-81be-4abb-a349-33d54d7ef296
+      - 6bf1a08d-a94f-4e11-9f48-1d81b750416c
       nodeValues: []
     - fullName: Event_Custom
       uid: e1dc974a-25ad-431b-9b05-b82bd35a7982
@@ -479,10 +488,102 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|CubeTest
+    - fullName: Get_Variable
+      uid: a4f5f40a-44de-4629-b8c7-24626d6acf31
+      position: {x: -245.87155, y: 1024.548}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|8db2b3d4-6099-4717-90cc-27ef199ab1db
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+      uid: d5a287d3-329b-4754-b760-f9fa61142764
+      position: {x: 175.01753, y: 869.3896}
+      nodeUIDs:
+      - 2e23ceea-8b86-4d52-bc42-e1c95dcfb389
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|EndDrop
+    - fullName: Get_Variable
+      uid: 2e23ceea-8b86-4d52-bc42-e1c95dcfb389
+      position: {x: 16.317888, y: 1038.4395}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|c4bda96a-3e5d-40a7-b588-57fc592a5656
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+      uid: 6bf1a08d-a94f-4e11-9f48-1d81b750416c
+      position: {x: -180.66501, y: 849.2975}
+      nodeUIDs:
+      - a4f5f40a-44de-4629-b8c7-24626d6acf31
+      - 
+      flowUIDs:
+      - d5a287d3-329b-4754-b760-f9fa61142764
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|FinishedLine
+    - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
+      uid: 8db2b3d4-6099-4717-90cc-27ef199ab1db
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Setcheck4
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
+      uid: c4bda96a-3e5d-40a7-b588-57fc592a5656
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|EndDrop4
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     updateOrder: 0
-  graphElementData: []
+  graphElementData:
+  - type: 5
+    uid: d20ea74b-d2d2-4a31-aa1b-490d446c4ddf
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":186.0,"height":442.0}}'
   viewTransform:
-    position: {x: 372.5469, y: 298.07343}
-    scale: 0.2471847
+    position: {x: 434.36383, y: -579.27466}
+    scale: 1
   version: 1.0.0
   showAssembly: 0

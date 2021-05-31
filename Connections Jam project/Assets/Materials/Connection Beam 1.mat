@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Connection Beam 1
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 8deef9834150d954abadeba0957972fc, type: 3}
   m_ShaderKeywords: VIGNETTE_MASKED _EMISSION
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
